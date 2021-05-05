@@ -1,0 +1,9 @@
+TRAYS|2
+HOLES|4
+HORIZON|15
+MAX_SIZE|15:0,1-3,4;14:0,2-1,2-3,2-4,2
+MAX_TIME|2
+
+PLANT|Lettuce|3|b|1,3|0,1|0,1;1,3
+PLANT|Endive|4|purple|1,4|0,1|0,2;2,4
+
