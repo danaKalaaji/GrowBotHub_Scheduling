@@ -1,0 +1,73 @@
+DAY 0
+Plant 17 seed of Cabbage in tray 0
+Plant 5 seed of Strawberry in tray 0
+Plant 8 seed of Raddish in tray 0
+DAY 1
+Plant 5 seed of Raddish in tray 0
+DAY 2
+Move 8 Raddish from tray 0 to tray 1
+Plant 5 seed of Strawberry in tray 0
+DAY 3
+Move 17 Cabbage from tray 0 to tray 1
+Move 5 Raddish from tray 0 to tray 1
+Plant 12 seed of Endive in tray 0
+Plant 8 seed of Raddish in tray 0
+DAY 4
+Harvest 8 plant Raddish from tray 1
+Plant 13 seed of Lettuce in tray 0
+DAY 5
+Move 5 Strawberry from tray 0 to tray 1
+Move 8 Raddish from tray 0 to tray 1
+Harvest 5 plant Raddish from tray 1
+Plant 5 seed of Strawberry in tray 0
+DAY 6
+Move 12 Endive from tray 0 to tray 1
+Harvest 17 plant Cabbage from tray 1
+Plant 12 seed of Lettuce in tray 0
+DAY 7
+Move 5 Strawberry from tray 0 to tray 1
+Harvest 8 plant Raddish from tray 1
+Plant 8 seed of Endive in tray 0
+Plant 5 seed of Strawberry in tray 0
+DAY 8
+Move 13 Lettuce from tray 0 to tray 1
+Move 5 Strawberry from tray 1 to tray 2
+DAY 9
+Plant 11 seed of Fennel in tray 0
+DAY 10
+Move 12 Lettuce from tray 0 to tray 1
+Move 8 Endive from tray 0 to tray 1
+Move 5 Strawberry from tray 0 to tray 1
+Move 5 Strawberry from tray 1 to tray 2
+Harvest 13 plant Lettuce from tray 1
+Harvest 12 plant Endive from tray 1
+Move 5 Strawberry from tray 2 to tray 3
+DAY 11
+DAY 12
+Move 11 Fennel from tray 0 to tray 1
+Move 5 Strawberry from tray 0 to tray 1
+Harvest 12 plant Lettuce from tray 1
+Move 5 Strawberry from tray 2 to tray 3
+Harvest 5 plant Strawberry from tray 3
+DAY 13
+Move 5 Strawberry from tray 1 to tray 2
+Plant 3 seed of Cabbage in tray 0
+Plant 27 seed of Fennel in tray 0
+DAY 14
+Harvest 8 plant Endive from tray 1
+Harvest 5 plant Strawberry from tray 3
+DAY 15
+Move 5 Strawberry from tray 1 to tray 2
+Harvest 11 plant Fennel from tray 1
+Move 5 Strawberry from tray 2 to tray 3
+DAY 16
+Move 3 Cabbage from tray 0 to tray 1
+Move 27 Fennel from tray 0 to tray 1
+DAY 17
+Move 5 Strawberry from tray 2 to tray 3
+Harvest 5 plant Strawberry from tray 3
+DAY 18
+DAY 19
+Harvest 3 plant Cabbage from tray 1
+Harvest 27 plant Fennel from tray 1
+Harvest 5 plant Strawberry from tray 3

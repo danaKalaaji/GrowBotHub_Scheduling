@@ -1,0 +1,148 @@
+GROWTH MODULE 0
+DAY 0
+Plant : 17 Cabbage
+Plant : 5 Strawberry
+Plant : 8 Raddish
+DAY 1
+Plant : 17 Cabbage
+Plant : 5 Strawberry
+Plant : 8 Raddish
+DAY 2
+Plant : 17 Cabbage
+Plant : 5 Strawberry
+Plant : 5 Raddish
+DAY 3
+Plant : 5 Strawberry
+Plant : 5 Strawberry
+DAY 4
+Plant : 12 Endive
+Plant : 5 Strawberry
+Plant : 5 Strawberry
+Plant : 8 Raddish
+DAY 5
+Plant : 13 Lettuce
+Plant : 12 Endive
+Plant : 5 Strawberry
+DAY 6
+Plant : 13 Lettuce
+Plant : 5 Strawberry
+Plant : 5 Strawberry
+DAY 7
+Plant : 13 Lettuce
+Plant : 12 Lettuce
+Plant : 5 Strawberry
+DAY 8
+Plant : 12 Lettuce
+Plant : 8 Endive
+Plant : 5 Strawberry
+Plant : 5 Strawberry
+DAY 9
+Plant : 12 Lettuce
+Plant : 8 Endive
+Plant : 5 Strawberry
+Plant : 5 Strawberry
+DAY 10
+Plant : 11 Fennel
+Plant : 5 Strawberry
+DAY 11
+Plant : 11 Fennel
+Plant : 5 Strawberry
+DAY 14
+Plant : 3 Cabbage
+Plant : 27 Fennel
+DAY 15
+Plant : 3 Cabbage
+Plant : 27 Fennel
+GROWTH MODULE 1
+DAY 2
+Plant : 8 Raddish
+DAY 3
+Plant : 17 Cabbage
+Plant : 5 Raddish
+Plant : 8 Raddish
+DAY 4
+Plant : 17 Cabbage
+Plant : 5 Raddish
+DAY 5
+Plant : 5 Strawberry
+Plant : 8 Raddish
+Plant : 17 Cabbage
+DAY 6
+Plant : 12 Endive
+Plant : 5 Strawberry
+Plant : 8 Raddish
+DAY 7
+Plant : 5 Strawberry
+Plant : 12 Endive
+Plant : 5 Strawberry
+DAY 8
+Plant : 13 Lettuce
+Plant : 12 Endive
+Plant : 5 Strawberry
+DAY 9
+Plant : 13 Lettuce
+Plant : 12 Endive
+Plant : 5 Strawberry
+DAY 10
+Plant : 12 Lettuce
+Plant : 8 Endive
+Plant : 5 Strawberry
+DAY 11
+Plant : 12 Lettuce
+Plant : 8 Endive
+Plant : 5 Strawberry
+DAY 12
+Plant : 11 Fennel
+Plant : 5 Strawberry
+Plant : 8 Endive
+Plant : 5 Strawberry
+DAY 13
+Plant : 8 Endive
+Plant : 11 Fennel
+Plant : 5 Strawberry
+DAY 14
+Plant : 11 Fennel
+Plant : 5 Strawberry
+DAY 16
+Plant : 3 Cabbage
+Plant : 27 Fennel
+DAY 17
+Plant : 3 Cabbage
+Plant : 27 Fennel
+DAY 18
+Plant : 3 Cabbage
+Plant : 27 Fennel
+GROWTH MODULE 2
+DAY 8
+Plant : 5 Strawberry
+DAY 9
+Plant : 5 Strawberry
+DAY 10
+Plant : 5 Strawberry
+DAY 11
+Plant : 5 Strawberry
+DAY 13
+Plant : 5 Strawberry
+DAY 14
+Plant : 5 Strawberry
+DAY 15
+Plant : 5 Strawberry
+DAY 16
+Plant : 5 Strawberry
+GROWTH MODULE 3
+DAY 10
+Plant : 5 Strawberry
+DAY 11
+Plant : 5 Strawberry
+DAY 12
+Plant : 5 Strawberry
+DAY 13
+Plant : 5 Strawberry
+DAY 15
+Plant : 5 Strawberry
+DAY 16
+Plant : 5 Strawberry
+DAY 17
+Plant : 5 Strawberry
+DAY 18
+Plant : 5 Strawberry
