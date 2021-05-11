@@ -3,68 +3,74 @@ DAY 1
 DAY 2
 DAY 3
 DAY 4
-Day 4: Harvest 8 plant Raddish from tray 1
 DAY 5
-Day 5: Harvest 5 plant Raddish from tray 1
+Day 5: Harvest 9 plant Raddish from tray 1
 DAY 6
-Day 6: Harvest 17 plant Cabbage from tray 1
+Day 6: Harvest 8 plant Cabbage from tray 1
+Day 6: Harvest 8 plant Fennel from tray 1
 DAY 7
 Day 7: Harvest 8 plant Raddish from tray 1
 DAY 8
 DAY 9
 DAY 10
-Day 10: Harvest 13 plant Lettuce from tray 1
 Day 10: Harvest 12 plant Endive from tray 1
 DAY 11
+Day 11: Harvest 8 plant Lettuce from tray 1
 DAY 12
-Day 12: Harvest 12 plant Lettuce from tray 1
+Day 12: Harvest 4 plant Raddish from tray 1
 Day 12: Harvest 5 plant Strawberry from tray 3
 DAY 13
 DAY 14
-Day 14: Harvest 8 plant Endive from tray 1
+Day 14: Harvest 9 plant Lettuce from tray 1
+Day 14: Harvest 12 plant Endive from tray 1
 Day 14: Harvest 5 plant Strawberry from tray 3
 DAY 15
-Day 15: Harvest 11 plant Fennel from tray 1
+Day 15: Harvest 4 plant Raddish from tray 1
 DAY 16
+Day 16: Harvest 12 plant Raddish from tray 1
+Day 16: Harvest 5 plant Strawberry from tray 3
 DAY 17
-Day 17: Harvest 5 plant Strawberry from tray 3
 DAY 18
 DAY 19
-Day 19: Harvest 3 plant Cabbage from tray 1
-Day 19: Harvest 27 plant Fennel from tray 1
+Day 19: Harvest 6 plant Lettuce from tray 1
+Day 19: Harvest 12 plant Cabbage from tray 1
+Day 19: Harvest 12 plant Fennel from tray 1
 Day 19: Harvest 5 plant Strawberry from tray 3
 _____________________________________________________________________________________
 Lettuce:
-Day 10: Harvest 13 plant Lettuce from tray 1
-Day 12: Harvest 12 plant Lettuce from tray 1
+Day 11: Harvest 8 plant Lettuce from tray 1
+Day 14: Harvest 9 plant Lettuce from tray 1
+Day 19: Harvest 6 plant Lettuce from tray 1
 
 
 Endive:
 Day 10: Harvest 12 plant Endive from tray 1
-Day 14: Harvest 8 plant Endive from tray 1
+Day 14: Harvest 12 plant Endive from tray 1
 
 
 Cabbage:
-Day 6: Harvest 17 plant Cabbage from tray 1
-Day 19: Harvest 3 plant Cabbage from tray 1
+Day 6: Harvest 8 plant Cabbage from tray 1
+Day 19: Harvest 12 plant Cabbage from tray 1
 
 
 Fennel:
-Day 15: Harvest 11 plant Fennel from tray 1
-Day 19: Harvest 27 plant Fennel from tray 1
+Day 6: Harvest 8 plant Fennel from tray 1
+Day 19: Harvest 12 plant Fennel from tray 1
 
 
 Strawberry:
 Day 12: Harvest 5 plant Strawberry from tray 3
 Day 14: Harvest 5 plant Strawberry from tray 3
-Day 17: Harvest 5 plant Strawberry from tray 3
+Day 16: Harvest 5 plant Strawberry from tray 3
 Day 19: Harvest 5 plant Strawberry from tray 3
 
 
 Raddish:
-Day 4: Harvest 8 plant Raddish from tray 1
-Day 5: Harvest 5 plant Raddish from tray 1
+Day 5: Harvest 9 plant Raddish from tray 1
 Day 7: Harvest 8 plant Raddish from tray 1
+Day 12: Harvest 4 plant Raddish from tray 1
+Day 15: Harvest 4 plant Raddish from tray 1
+Day 16: Harvest 12 plant Raddish from tray 1
 
 
 _____________________________________________________________________________________
@@ -73,19 +79,19 @@ ________________________________________________________________________________
 1         0       0        0       0           0        0
 2         0       0        0       0           0        0
 3         0       0        0       0           0        0
-4         0       0        0       0           0        8
-5         0       0        0       0           0        5
-6         0       0       17       0           0        0
+4         0       0        0       0           0        0
+5         0       0        0       0           0        9
+6         0       0        8       8           0        0
 7         0       0        0       0           0        8
 8         0       0        0       0           0        0
 9         0       0        0       0           0        0
-10       13      12        0       0           0        0
-11        0       0        0       0           0        0
-12       12       0        0       0           5        0
+10        0      12        0       0           0        0
+11        8       0        0       0           0        0
+12        0       0        0       0           5        4
 13        0       0        0       0           0        0
-14        0       8        0       0           5        0
-15        0       0        0      11           0        0
-16        0       0        0       0           0        0
-17        0       0        0       0           5        0
+14        9      12        0       0           5        0
+15        0       0        0       0           0        4
+16        0       0        0       0           5       12
+17        0       0        0       0           0        0
 18        0       0        0       0           0        0
-19        0       0        3      27           5        0
+19        6       0       12      12           5        0

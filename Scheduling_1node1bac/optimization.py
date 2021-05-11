@@ -31,7 +31,7 @@ def make_flow_vars():
                     *(u, v, key)), lowBound= 0, cat='Integer')
                 if v.type == 'module':
                     # Per-commodity capacity constraints
-                    model += flow_vars[u, v, key] <= inputs.HOLES[int(v.where/2)]
+                    model += flow_vars[u, v, key] <= 2 * inputs.TRAYS_PER_TYPE[0]
 
         # Bundle constraints
         if v.type == 'module':

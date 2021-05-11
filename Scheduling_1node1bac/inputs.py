@@ -14,6 +14,8 @@ def read_inputs():
     global plant_data
     # Number of growth modules
     global TRAYS
+    # Number of trays per type of module
+    global TRAYS_PER_TYPE
     # Number of holes per growth module
     global HOLES
     # Number of days we have to produce a maximum of plants
@@ -33,8 +35,9 @@ def read_inputs():
         data = data.split("|")
         if data[0] == "TRAYS":
             TRAYS = int(data[1])
-        elif data[0] == "HOLES":
-            HOLES = list(map(int, data[1].split(";")))
+        elif data[0] == "TRAYS_PER_TYPE":
+            TRAYS_PER_TYPE = list(map(int, data[1].split(";")))
+            HOLES = [nb_trays * 5 for nb_trays in TRAYS_PER_TYPE]
             if len(HOLES) != TRAYS:
                 print("error when giving inputs inputs: HOLES")
         elif data[0] == "HORIZON":

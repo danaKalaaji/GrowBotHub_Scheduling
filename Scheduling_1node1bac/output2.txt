@@ -1,16 +1,17 @@
 GROWTH MODULE 0
 DAY 0
-Plant : 17 Cabbage
+Plant : 8 Cabbage
+Plant : 8 Fennel
 Plant : 5 Strawberry
-Plant : 8 Raddish
 DAY 1
-Plant : 17 Cabbage
+Plant : 8 Cabbage
+Plant : 8 Fennel
 Plant : 5 Strawberry
-Plant : 8 Raddish
 DAY 2
-Plant : 17 Cabbage
+Plant : 8 Cabbage
+Plant : 8 Fennel
 Plant : 5 Strawberry
-Plant : 5 Raddish
+Plant : 9 Raddish
 DAY 3
 Plant : 5 Strawberry
 Plant : 5 Strawberry
@@ -20,98 +21,111 @@ Plant : 5 Strawberry
 Plant : 5 Strawberry
 Plant : 8 Raddish
 DAY 5
-Plant : 13 Lettuce
 Plant : 12 Endive
 Plant : 5 Strawberry
+Plant : 5 Strawberry
 DAY 6
-Plant : 13 Lettuce
+Plant : 8 Lettuce
 Plant : 5 Strawberry
 Plant : 5 Strawberry
 DAY 7
-Plant : 13 Lettuce
-Plant : 12 Lettuce
+Plant : 8 Lettuce
 Plant : 5 Strawberry
 DAY 8
-Plant : 12 Lettuce
-Plant : 8 Endive
+Plant : 8 Lettuce
+Plant : 12 Endive
 Plant : 5 Strawberry
 Plant : 5 Strawberry
 DAY 9
-Plant : 12 Lettuce
-Plant : 8 Endive
+Plant : 9 Lettuce
+Plant : 12 Endive
 Plant : 5 Strawberry
-Plant : 5 Strawberry
+Plant : 4 Raddish
 DAY 10
-Plant : 11 Fennel
+Plant : 9 Lettuce
 Plant : 5 Strawberry
 DAY 11
-Plant : 11 Fennel
-Plant : 5 Strawberry
-DAY 14
-Plant : 3 Cabbage
-Plant : 27 Fennel
-DAY 15
-Plant : 3 Cabbage
-Plant : 27 Fennel
-GROWTH MODULE 1
-DAY 2
-Plant : 8 Raddish
-DAY 3
-Plant : 17 Cabbage
-Plant : 5 Raddish
-Plant : 8 Raddish
-DAY 4
-Plant : 17 Cabbage
-Plant : 5 Raddish
-DAY 5
-Plant : 5 Strawberry
-Plant : 8 Raddish
-Plant : 17 Cabbage
-DAY 6
-Plant : 12 Endive
-Plant : 5 Strawberry
-Plant : 8 Raddish
-DAY 7
-Plant : 5 Strawberry
-Plant : 12 Endive
-Plant : 5 Strawberry
-DAY 8
-Plant : 13 Lettuce
-Plant : 12 Endive
-Plant : 5 Strawberry
-DAY 9
-Plant : 13 Lettuce
-Plant : 12 Endive
-Plant : 5 Strawberry
-DAY 10
-Plant : 12 Lettuce
-Plant : 8 Endive
-Plant : 5 Strawberry
-DAY 11
-Plant : 12 Lettuce
-Plant : 8 Endive
+Plant : 9 Lettuce
 Plant : 5 Strawberry
 DAY 12
-Plant : 11 Fennel
-Plant : 5 Strawberry
-Plant : 8 Endive
-Plant : 5 Strawberry
+Plant : 4 Raddish
 DAY 13
-Plant : 8 Endive
-Plant : 11 Fennel
+Plant : 12 Raddish
+DAY 14
+Plant : 6 Lettuce
+Plant : 12 Cabbage
+Plant : 12 Fennel
+DAY 15
+Plant : 6 Lettuce
+Plant : 12 Cabbage
+Plant : 12 Fennel
+DAY 16
+Plant : 6 Lettuce
+GROWTH MODULE 1
+DAY 3
+Plant : 8 Cabbage
+Plant : 8 Fennel
+Plant : 9 Raddish
+DAY 4
+Plant : 8 Cabbage
+Plant : 8 Fennel
+Plant : 9 Raddish
+DAY 5
+Plant : 5 Strawberry
+Plant : 8 Raddish
+Plant : 8 Cabbage
+Plant : 8 Fennel
+DAY 6
+Plant : 12 Endive
+Plant : 5 Strawberry
+Plant : 8 Raddish
+DAY 7
+Plant : 5 Strawberry
+Plant : 12 Endive
+Plant : 5 Strawberry
+DAY 8
+Plant : 12 Endive
+Plant : 5 Strawberry
+DAY 9
+Plant : 8 Lettuce
+Plant : 5 Strawberry
+Plant : 12 Endive
+Plant : 5 Strawberry
+DAY 10
+Plant : 12 Endive
+Plant : 4 Raddish
+Plant : 8 Lettuce
+Plant : 5 Strawberry
+DAY 11
+Plant : 12 Endive
+Plant : 5 Strawberry
+Plant : 4 Raddish
+DAY 12
+Plant : 9 Lettuce
+Plant : 5 Strawberry
+Plant : 12 Endive
+DAY 13
+Plant : 4 Raddish
+Plant : 9 Lettuce
+Plant : 12 Endive
 Plant : 5 Strawberry
 DAY 14
-Plant : 11 Fennel
+Plant : 12 Raddish
 Plant : 5 Strawberry
+Plant : 4 Raddish
+DAY 15
+Plant : 12 Raddish
 DAY 16
-Plant : 3 Cabbage
-Plant : 27 Fennel
+Plant : 12 Cabbage
+Plant : 12 Fennel
 DAY 17
-Plant : 3 Cabbage
-Plant : 27 Fennel
+Plant : 6 Lettuce
+Plant : 12 Cabbage
+Plant : 12 Fennel
 DAY 18
-Plant : 3 Cabbage
-Plant : 27 Fennel
+Plant : 6 Lettuce
+Plant : 12 Cabbage
+Plant : 12 Fennel
 GROWTH MODULE 2
 DAY 8
 Plant : 5 Strawberry
@@ -121,9 +135,9 @@ DAY 10
 Plant : 5 Strawberry
 DAY 11
 Plant : 5 Strawberry
-DAY 13
+DAY 12
 Plant : 5 Strawberry
-DAY 14
+DAY 13
 Plant : 5 Strawberry
 DAY 15
 Plant : 5 Strawberry
@@ -138,9 +152,9 @@ DAY 12
 Plant : 5 Strawberry
 DAY 13
 Plant : 5 Strawberry
-DAY 15
+DAY 14
 Plant : 5 Strawberry
-DAY 16
+DAY 15
 Plant : 5 Strawberry
 DAY 17
 Plant : 5 Strawberry

@@ -13,5 +13,6 @@ def all_plants():
 	for plant in inputs.plant_data:
 		# Cannot seed a plant if it has not the time to grow
 		for day in range(inputs.HORIZON + 1 - plant.total_days):
+			#if (plant.name == "Strawberry" and day % 5 == 0) or plant.name != "Strawberry":
 			plants.append((plant, day))
 
