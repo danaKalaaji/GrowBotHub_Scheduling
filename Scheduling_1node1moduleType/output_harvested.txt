@@ -1,0 +1,43 @@
+DAY 0
+DAY 1
+DAY 2
+DAY 3
+DAY 4
+DAY 5
+DAY 6
+Day 6: Harvest 2 plant Fennel from tray 1
+DAY 7
+DAY 8
+Day 8: Harvest 3 plant Fennel from tray 1
+DAY 9
+DAY 10
+Day 10: Harvest 1 plant Fennel from tray 1
+DAY 11
+Day 11: Harvest 4 plant Fennel from tray 1
+Day 11: Harvest 2 plant Strawberry from tray 2
+_____________________________________________________________________________________
+Fennel:
+Day 6: Harvest 2 plant Fennel from tray 1
+Day 8: Harvest 3 plant Fennel from tray 1
+Day 10: Harvest 1 plant Fennel from tray 1
+Day 11: Harvest 4 plant Fennel from tray 1
+
+
+Strawberry:
+Day 11: Harvest 2 plant Strawberry from tray 2
+
+
+_____________________________________________________________________________________
+    Fennel  Strawberry
+0        0           0
+1        0           0
+2        0           0
+3        0           0
+4        0           0
+5        0           0
+6        2           0
+7        0           0
+8        3           0
+9        0           0
+10       1           0
+11       4           2

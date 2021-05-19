@@ -1,0 +1,46 @@
+GROWTH MODULE 0
+DAY 0
+Hole : 0 | Plant : Fennel
+Hole : 2 | Plant : Fennel
+Hole : 1 | Plant : Raddish
+Hole : 2 | Plant : Raddish
+DAY 1
+Hole : 0 | Plant : Fennel
+Hole : 1 | Plant : Raddish
+Hole : 2 | Plant : Fennel
+Hole : 2 | Plant : Raddish
+DAY 2
+Hole : 0 | Plant : Fennel
+Hole : 1 | Plant : Raddish
+Hole : 1 | Plant : Raddish
+Hole : 2 | Plant : Fennel
+Hole : 2 | Plant : Raddish
+DAY 3
+Hole : 0 | Plant : Fennel
+Hole : 0 | Plant : Raddish
+Hole : 1 | Plant : Raddish
+Hole : 1 | Plant : Raddish
+Hole : 2 | Plant : Fennel
+DAY 4
+Hole : 0 | Plant : Fennel
+Hole : 0 | Plant : Raddish
+Hole : 1 | Plant : Raddish
+Hole : 2 | Plant : Fennel
+GROWTH MODULE 1
+DAY 2
+Hole : 0 | Plant : Fennel
+Hole : 1 | Plant : Fennel
+DAY 3
+Hole : 1 | Plant : Fennel
+Hole : 1 | Plant : Raddish
+Hole : 0 | Plant : Fennel
+Hole : 1 | Plant : Raddish
+DAY 4
+Hole : 1 | Plant : Fennel
+Hole : 0 | Plant : Raddish
+Hole : 0 | Plant : Fennel
+DAY 5
+Hole : 1 | Plant : Fennel
+Hole : 1 | Plant : Raddish
+Hole : 0 | Plant : Raddish
+Hole : 0 | Plant : Fennel

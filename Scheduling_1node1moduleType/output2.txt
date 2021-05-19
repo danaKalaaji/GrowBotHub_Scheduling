@@ -1,0 +1,51 @@
+GROWTH MODULE 0
+DAY 0
+Plant : 2 Fennel
+DAY 1
+Plant : 2 Fennel
+DAY 2
+Plant : 2 Fennel
+Plant : 2 Strawberry
+DAY 3
+Plant : 3 Fennel
+Plant : 2 Strawberry
+DAY 4
+Plant : 3 Fennel
+Plant : 2 Strawberry
+DAY 5
+Plant : 1 Fennel
+Plant : 2 Strawberry
+DAY 6
+Plant : 1 Fennel
+Plant : 4 Fennel
+DAY 7
+Plant : 4 Fennel
+GROWTH MODULE 1
+DAY 3
+Plant : 2 Fennel
+DAY 4
+Plant : 2 Fennel
+DAY 5
+Plant : 3 Fennel
+Plant : 2 Fennel
+DAY 6
+Plant : 2 Strawberry
+Plant : 3 Fennel
+DAY 7
+Plant : 1 Fennel
+Plant : 3 Fennel
+Plant : 2 Strawberry
+DAY 8
+Plant : 4 Fennel
+Plant : 1 Fennel
+Plant : 2 Strawberry
+DAY 9
+Plant : 1 Fennel
+Plant : 4 Fennel
+DAY 10
+Plant : 4 Fennel
+GROWTH MODULE 2
+DAY 9
+Plant : 2 Strawberry
+DAY 10
+Plant : 2 Strawberry

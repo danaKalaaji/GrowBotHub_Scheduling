@@ -1,0 +1,76 @@
+DAY 0
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Raddish in tray 0
+Plant seed of Raddish in tray 0
+DAY 1
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Raddish in tray 0
+Plant seed of Raddish in tray 0
+DAY 2
+Move Fennel from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Raddish in tray 0
+Plant seed of Raddish in tray 0
+Plant seed of Raddish in tray 0
+Plant seed of Raddish in tray 0
+DAY 3
+Move Fennel from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Move Raddish from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Move Raddish from tray 0 to tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Fennel from tray 1
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+Plant seed of Fennel in tray 0
+DAY 4
+Move Fennel from tray 0 to tray 1
+Move Raddish from tray 0 to tray 1
+Move Raddish from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Raddish from tray 1
+Harvest plant Raddish from tray 1
+DAY 5
+Move Fennel from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Move Raddish from tray 0 to tray 1
+Move Raddish from tray 0 to tray 1
+Move Raddish from tray 0 to tray 1
+Move Raddish from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Move Fennel from tray 0 to tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Raddish from tray 1
+Harvest plant Raddish from tray 1
+Harvest plant Fennel from tray 1
+DAY 6
+Harvest plant Fennel from tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Raddish from tray 1
+Harvest plant Raddish from tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Fennel from tray 1
+Harvest plant Raddish from tray 1
+Harvest plant Raddish from tray 1

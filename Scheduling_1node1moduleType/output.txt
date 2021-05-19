@@ -1,0 +1,28 @@
+DAY 0
+Plant 2 seed of Fennel in tray 0
+DAY 1
+Plant 2 seed of Strawberry in tray 0
+DAY 2
+Plant 3 seed of Fennel in tray 0
+DAY 3
+Move 2 Fennel from tray 0 to tray 1
+DAY 4
+Plant 1 seed of Fennel in tray 0
+DAY 5
+Move 3 Fennel from tray 0 to tray 1
+Plant 4 seed of Fennel in tray 0
+DAY 6
+Move 2 Strawberry from tray 0 to tray 1
+Harvest 2 plant Fennel from tray 1
+DAY 7
+Move 1 Fennel from tray 0 to tray 1
+DAY 8
+Move 4 Fennel from tray 0 to tray 1
+Harvest 3 plant Fennel from tray 1
+DAY 9
+Move 2 Strawberry from tray 1 to tray 2
+DAY 10
+Harvest 1 plant Fennel from tray 1
+DAY 11
+Harvest 4 plant Fennel from tray 1
+Harvest 2 plant Strawberry from tray 2
