@@ -31,7 +31,7 @@ def make_flow_vars():
                     *(u, v, key)), lowBound= 0, cat='Integer')
                 if v.type == 'module':
                     # Per-commodity capacity constraints
-                    model += flow_vars[u, v, key] <= 2 * inputs.TRAYS_PER_TYPE[0]
+                    model += flow_vars[u, v, key] <= 2 * inputs.TRAYS_PER_TYPE[int(v.where/2)]
 
         # Bundle constraints
         if v.type == 'module':
@@ -71,14 +71,15 @@ def size_constraint():
 # (Maximum one plant per hole)
 def max_inflow_constraint():
     global model
-    inflow_from_holes = []
+    inflow_from_holes = [[] for _ in range(len(gc.g.nodes))]
     for n in (n for n in gc.g.nodes if n.type == 'module'):
-        for e in (e for e in gc.g.in_edges(n) if e[0].type == 'module'):
+        for e in (e for e in gc.g.in_edges(n)): #if e[0].type == 'hole'):
             for c in plants.plants:
                 if (e[0], e[1], c) in flow_vars:
-                    inflow_from_holes += [flow_vars[e[0], e[1], c]]
-        model += plp.lpSum(inflow_from_holes) <= inputs.HOLES[int(n.where/2)]
-        inflow_from_holes = []
+                    inflow_from_holes[list(gc.g.nodes).index(n)] += [flow_vars[e[0], e[1], c]]
+                    #print(e[0].tray, e[0].hole, e[0].when , "||",e[1].tray, e[1].hole, e[1].when, "||",flow_vars[e[0], e[1], c].varValue)
+
+        model += plp.lpSum(inflow_from_holes[list(gc.g.nodes).index(n)]) <= inputs.HOLES[int(n.where/2)]
 
 
 ## FLOW CONSERVATION CONSTRAINT ##
@@ -127,7 +128,7 @@ def optimize():
     model += plp.lpSum(get_sink_inflow()) - w* plp.lpSum(z()) #- v * plp.lpSum(y())
 
     # Solves With a cut of of fracGap
-    model.solve(plp.PULP_CBC_CMD(fracGap = 0.05))
+    model.solve(plp.PULP_CBC_CMD(fracGap = 0.1))
 
     # Solves without timeout
     #model.solve()

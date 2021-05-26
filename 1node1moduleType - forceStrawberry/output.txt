@@ -1,0 +1,601 @@
+DAY 0
+Plant 3 seed of Endive in tray 0
+Plant 8 seed of Fennel in tray 0
+Plant 1 seed of Strawberry in tray 0
+Plant 3 seed of Raddish in tray 0
+DAY 1
+Plant 1 seed of Endive in tray 0
+DAY 2
+Plant 1 seed of Endive in tray 0
+Plant 10 seed of Raddish in tray 0
+DAY 3
+Plant 1 seed of Endive in tray 0
+DAY 4
+Plant 1 seed of Endive in tray 0
+DAY 5
+DAY 6
+DAY 7
+DAY 8
+DAY 9
+DAY 10
+Plant 1 seed of Strawberry in tray 0
+DAY 11
+DAY 12
+DAY 13
+DAY 14
+DAY 15
+DAY 16
+Move 3 Raddish from tray 0 to tray 1
+Plant 2 seed of Raddish in tray 0
+DAY 17
+Plant 1 seed of Raddish in tray 0
+DAY 18
+Move 10 Raddish from tray 0 to tray 1
+Plant 1 seed of Cabbage in tray 0
+Plant 2 seed of Raddish in tray 0
+DAY 19
+Plant 1 seed of Fennel in tray 0
+Plant 2 seed of Raddish in tray 0
+DAY 20
+Plant 1 seed of Cabbage in tray 0
+Plant 1 seed of Strawberry in tray 0
+DAY 21
+Move 3 Endive from tray 0 to tray 1
+Move 8 Fennel from tray 0 to tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 22
+Move 1 Endive from tray 0 to tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 23
+Move 1 Endive from tray 0 to tray 1
+Plant 1 seed of Fennel in tray 0
+DAY 24
+Move 1 Endive from tray 0 to tray 1
+Plant 1 seed of Fennel in tray 0
+DAY 25
+Move 1 Endive from tray 0 to tray 1
+DAY 26
+Plant 1 seed of Endive in tray 0
+Plant 1 seed of Fennel in tray 0
+DAY 27
+Plant 1 seed of Fennel in tray 0
+DAY 28
+Plant 1 seed of Endive in tray 0
+Plant 1 seed of Fennel in tray 0
+DAY 29
+Plant 1 seed of Endive in tray 0
+Plant 1 seed of Fennel in tray 0
+DAY 30
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Fennel in tray 0
+Plant 1 seed of Strawberry in tray 0
+DAY 31
+Harvest 3 plant Raddish from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 32
+Move 2 Raddish from tray 0 to tray 1
+DAY 33
+Move 1 Raddish from tray 0 to tray 1
+Harvest 10 plant Raddish from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 34
+Move 2 Raddish from tray 0 to tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 35
+Move 2 Raddish from tray 0 to tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Raddish in tray 0
+DAY 36
+Plant 1 seed of Raddish in tray 0
+DAY 37
+Plant 1 seed of Raddish in tray 0
+DAY 38
+DAY 39
+Move 1 Cabbage from tray 0 to tray 1
+DAY 40
+Move 1 Fennel from tray 0 to tray 1
+Plant 1 seed of Endive in tray 0
+Plant 1 seed of Strawberry in tray 0
+DAY 41
+Move 1 Cabbage from tray 0 to tray 1
+Plant 1 seed of Fennel in tray 0
+DAY 42
+Move 1 Cabbage from tray 0 to tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Cabbage in tray 0
+DAY 43
+Move 1 Cabbage from tray 0 to tray 1
+DAY 44
+Move 1 Fennel from tray 0 to tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Endive in tray 0
+Plant 1 seed of Fennel in tray 0
+DAY 45
+Move 1 Fennel from tray 0 to tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 46
+Plant 1 seed of Endive in tray 0
+DAY 47
+Move 1 Endive from tray 0 to tray 1
+Move 1 Fennel from tray 0 to tray 1
+Harvest 2 plant Raddish from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 48
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Fennel in tray 0
+DAY 49
+Move 1 Endive from tray 0 to tray 1
+Move 1 Fennel from tray 0 to tray 1
+Harvest 2 plant Raddish from tray 1
+DAY 50
+Move 1 Endive from tray 0 to tray 1
+Move 1 Fennel from tray 0 to tray 1
+Move 1 Strawberry from tray 0 to tray 1
+Harvest 2 plant Raddish from tray 1
+Plant 1 seed of Endive in tray 0
+Plant 1 seed of Strawberry in tray 0
+DAY 51
+Move 1 Fennel from tray 0 to tray 1
+Move 1 Raddish from tray 0 to tray 1
+Harvest 8 plant Fennel from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 52
+Move 1 Cabbage from tray 0 to tray 1
+Move 1 Raddish from tray 0 to tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 53
+Move 1 Raddish from tray 0 to tray 1
+Plant 1 seed of Fennel in tray 0
+DAY 54
+Move 1 Cabbage from tray 0 to tray 1
+DAY 55
+Move 1 Cabbage from tray 0 to tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 56
+Plant 1 seed of Lettuce in tray 0
+DAY 57
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Fennel in tray 0
+Plant 1 seed of Raddish in tray 0
+DAY 58
+Plant 1 seed of Lettuce in tray 0
+DAY 59
+DAY 60
+Move 1 Strawberry from tray 0 to tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Endive in tray 0
+Plant 1 seed of Strawberry in tray 0
+DAY 61
+Move 1 Lettuce from tray 0 to tray 1
+Move 1 Endive from tray 0 to tray 1
+Move 1 Raddish from tray 0 to tray 1
+Harvest 3 plant Endive from tray 1
+DAY 62
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+Plant 1 seed of Endive in tray 0
+DAY 63
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 64
+Harvest 1 plant Endive from tray 1
+Plant 1 seed of Endive in tray 0
+Plant 1 seed of Fennel in tray 0
+DAY 65
+Move 1 Endive from tray 0 to tray 1
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 66
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Cabbage in tray 0
+Plant 1 seed of Raddish in tray 0
+DAY 67
+Move 1 Endive from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+DAY 68
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 69
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 70
+Move 1 Strawberry from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Endive in tray 0
+DAY 71
+Move 1 Endive from tray 0 to tray 1
+Move 1 Strawberry from tray 1 to tray 2
+Harvest 1 plant Cabbage from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 72
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 73
+Move 1 Lettuce from tray 0 to tray 1
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 74
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+DAY 75
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Endive in tray 0
+Plant 1 seed of Cabbage in tray 0
+DAY 76
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Cabbage in tray 0
+DAY 77
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Cabbage in tray 0
+DAY 78
+Move 1 Lettuce from tray 0 to tray 1
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 79
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 80
+Move 1 Strawberry from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Endive in tray 0
+DAY 81
+Move 1 Endive from tray 0 to tray 1
+Move 1 Raddish from tray 0 to tray 1
+Move 1 Strawberry from tray 1 to tray 2
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 82
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 83
+Move 1 Endive from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 84
+Harvest 1 plant Cabbage from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 85
+Move 1 Endive from tray 0 to tray 1
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 86
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 87
+Move 1 Lettuce from tray 0 to tray 1
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Cabbage in tray 0
+Plant 1 seed of Raddish in tray 0
+DAY 88
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Cabbage in tray 0
+Plant 1 seed of Raddish in tray 0
+DAY 89
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+DAY 90
+Move 1 Strawberry from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 2 seed of Cabbage in tray 0
+DAY 91
+Move 1 Lettuce from tray 0 to tray 1
+Move 1 Endive from tray 0 to tray 1
+Move 1 Strawberry from tray 1 to tray 2
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 92
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 93
+Harvest 1 plant Cabbage from tray 1
+DAY 94
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 95
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+DAY 96
+Move 1 Endive from tray 0 to tray 1
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+DAY 97
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 98
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Fennel in tray 0
+Plant 1 seed of Raddish in tray 0
+DAY 99
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+Move 1 Strawberry from tray 2 to tray 3
+DAY 100
+Move 1 Strawberry from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Cabbage in tray 0
+DAY 101
+Move 1 Endive from tray 0 to tray 1
+Move 1 Strawberry from tray 1 to tray 2
+Harvest 1 plant Endive from tray 1
+DAY 102
+Harvest 1 plant Cabbage from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 103
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 104
+Move 1 Cabbage from tray 0 to tray 1
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Fennel in tray 0
+DAY 105
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+DAY 106
+Harvest 1 plant Cabbage from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 107
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+DAY 108
+Move 1 Lettuce from tray 0 to tray 1
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+DAY 109
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Move 1 Strawberry from tray 2 to tray 3
+DAY 110
+Move 1 Strawberry from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Cabbage in tray 0
+Plant 1 seed of Raddish in tray 0
+DAY 111
+Move 2 Cabbage from tray 0 to tray 1
+Move 1 Strawberry from tray 1 to tray 2
+Harvest 1 plant Endive from tray 1
+Plant 1 seed of Fennel in tray 0
+DAY 112
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Lettuce in tray 0
+DAY 113
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Cabbage in tray 0
+Plant 1 seed of Raddish in tray 0
+DAY 114
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Fennel in tray 0
+DAY 115
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+Plant 1 seed of Lettuce in tray 0
+Plant 1 seed of Cabbage in tray 0
+DAY 116
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+DAY 117
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 118
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+DAY 119
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Move 1 Strawberry from tray 2 to tray 3
+Plant 3 seed of Endive in tray 0
+DAY 120
+Harvest 1 plant Strawberry from tray 3
+Plant 6 seed of Endive in tray 0
+DAY 121
+Move 1 Lettuce from tray 0 to tray 1
+Move 1 Cabbage from tray 0 to tray 1
+Move 1 Strawberry from tray 1 to tray 2
+Harvest 1 plant Endive from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 122
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 123
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+DAY 124
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Fennel in tray 0
+DAY 125
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+Plant 4 seed of Lettuce in tray 0
+DAY 126
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 127
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+Plant 1 seed of Cabbage in tray 0
+DAY 128
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 129
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Move 1 Strawberry from tray 2 to tray 3
+DAY 130
+Harvest 1 plant Strawberry from tray 3
+Plant 2 seed of Fennel in tray 0
+DAY 131
+Move 1 Lettuce from tray 0 to tray 1
+Move 1 Cabbage from tray 0 to tray 1
+Move 1 Strawberry from tray 1 to tray 2
+Harvest 1 plant Endive from tray 1
+DAY 132
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 133
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+DAY 134
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 135
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 136
+Move 1 Cabbage from tray 0 to tray 1
+Harvest 1 plant Endive from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 137
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+DAY 138
+Harvest 1 plant Cabbage from tray 1
+DAY 139
+Harvest 1 plant Cabbage from tray 1
+Move 1 Strawberry from tray 2 to tray 3
+DAY 140
+Move 3 Endive from tray 0 to tray 1
+Harvest 1 plant Strawberry from tray 3
+DAY 141
+Move 6 Endive from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Harvest 1 plant Endive from tray 1
+Harvest 2 plant Cabbage from tray 1
+Harvest 1 plant Raddish from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 142
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 143
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 144
+Move 1 Lettuce from tray 0 to tray 1
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+DAY 145
+Move 1 Fennel from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 146
+Move 1 Lettuce from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 1 seed of Raddish in tray 0
+DAY 147
+Harvest 1 plant Lettuce from tray 1
+DAY 148
+Move 1 Cabbage from tray 0 to tray 1
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+Plant 2 seed of Raddish in tray 0
+DAY 149
+Harvest 1 plant Fennel from tray 1
+Move 1 Strawberry from tray 2 to tray 3
+DAY 150
+Harvest 1 plant Strawberry from tray 3
+Plant 2 seed of Raddish in tray 0
+DAY 151
+Move 2 Fennel from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 152
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+DAY 153
+Harvest 1 plant Lettuce from tray 1
+DAY 154
+Harvest 1 plant Cabbage from tray 1
+DAY 155
+Harvest 1 plant Fennel from tray 1
+DAY 156
+Move 4 Lettuce from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+DAY 157
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 158
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Lettuce from tray 1
+DAY 159
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Raddish from tray 1
+Move 1 Strawberry from tray 2 to tray 3
+DAY 160
+Harvest 1 plant Strawberry from tray 3
+DAY 161
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 162
+Move 1 Raddish from tray 0 to tray 1
+Harvest 1 plant Fennel from tray 1
+DAY 163
+Harvest 1 plant Raddish from tray 1
+DAY 164
+Move 2 Raddish from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 165
+Harvest 1 plant Fennel from tray 1
+DAY 166
+Move 2 Raddish from tray 0 to tray 1
+Harvest 1 plant Cabbage from tray 1
+DAY 167
+Harvest 1 plant Raddish from tray 1
+DAY 168
+Harvest 1 plant Lettuce from tray 1
+DAY 169
+Harvest 1 plant Lettuce from tray 1
+DAY 170
+Harvest 1 plant Strawberry from tray 3
+DAY 171
+Harvest 1 plant Lettuce from tray 1
+DAY 172
+Harvest 1 plant Raddish from tray 1
+DAY 173
+Harvest 1 plant Raddish from tray 1
+DAY 174
+Harvest 1 plant Raddish from tray 1
+DAY 175
+Harvest 1 plant Fennel from tray 1
+DAY 176
+Harvest 1 plant Raddish from tray 1
+DAY 177
+Harvest 1 plant Raddish from tray 1
+DAY 178
+Harvest 1 plant Cabbage from tray 1
+DAY 179
+Harvest 2 plant Raddish from tray 1
+DAY 180
+Harvest 3 plant Endive from tray 1
+Harvest 1 plant Strawberry from tray 3
+DAY 181
+Harvest 4 plant Lettuce from tray 1
+Harvest 6 plant Endive from tray 1
+Harvest 2 plant Fennel from tray 1
+Harvest 2 plant Raddish from tray 1

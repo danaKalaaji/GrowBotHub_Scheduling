@@ -104,6 +104,7 @@ def flow_conservation_constraint():
 # alpha : Set to 4 manually here (but can be changed). This constant allows the constraint to be less strict
 
 
+
 def balance_constraint():
     global model
     alpha = 4
@@ -116,6 +117,7 @@ def balance_constraint():
                 if (e[0], e[1], c) in flow_vars:
                     sink += [flow_vars[e[0], e[1], c]]
         model += plp.lpSum(sink) >= limit
+
 
 ## OPTIMIZE ##
 
@@ -130,7 +132,7 @@ def optimize():
 
     # Solves without timeout
     #model.solve()
-    model.solve(plp.PULP_CBC_CMD(fracGap = 0.1))
+    model.solve(plp.PULP_CBC_CMD(fracGap = 0.05))
 
     # Solves With a timeout of MAX_TIME minutes
     #model.solve(plp.PULP_CBC_CMD(maxSeconds=inputs.MAX_TIME * 60))
@@ -160,6 +162,7 @@ def get_inflow_outflow(g, flow_v, n, c):
     return inflow, outflow
 
 # Sub-function that calculates the inflow of all sinks in the graph
+
 
 
 def get_sink_inflow():

@@ -1,0 +1,283 @@
+DAY 0
+DAY 1
+DAY 2
+DAY 3
+DAY 4
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+DAY 5
+DAY 6
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 6: Harvest 2 plant Fennel from tray 1
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 6: Harvest 1 plant Raddish from tray 1
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 6: Harvest 2 plant Fennel from tray 1
+Day 6: Harvest 2 plant Raddish from tray 1
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 6: Harvest 2 plant Fennel from tray 1
+DAY 7
+Day 7: Harvest 2 plant Raddish from tray 1
+Day 7: Harvest 1 plant Endive from tray 1
+Day 7: Harvest 2 plant Endive from tray 1
+Day 7: Harvest 2 plant Raddish from tray 1
+Day 7: Harvest 1 plant Endive from tray 1
+Day 7: Harvest 2 plant Endive from tray 1
+DAY 8
+Day 8: Harvest 2 plant Fennel from tray 1
+Day 8: Harvest 2 plant Lettuce from tray 1
+Day 8: Harvest 1 plant Cabbage from tray 1
+Day 8: Harvest 1 plant Cabbage from tray 1
+Day 8: Harvest 1 plant Fennel from tray 1
+DAY 9
+Day 9: Harvest 2 plant Cabbage from tray 1
+Day 9: Harvest 1 plant Raddish from tray 1
+Day 9: Harvest 1 plant Fennel from tray 1
+Day 9: Harvest 1 plant Raddish from tray 1
+Day 9: Harvest 1 plant Lettuce from tray 1
+Day 9: Harvest 1 plant Cabbage from tray 1
+Day 9: Harvest 2 plant Cabbage from tray 1
+Day 9: Harvest 2 plant Raddish from tray 1
+Day 9: Harvest 1 plant Fennel from tray 1
+DAY 10
+Day 10: Harvest 2 plant Raddish from tray 1
+Day 10: Harvest 1 plant Cabbage from tray 1
+Day 10: Harvest 2 plant Fennel from tray 1
+Day 10: Harvest 1 plant Endive from tray 1
+Day 10: Harvest 2 plant Endive from tray 1
+Day 10: Harvest 2 plant Raddish from tray 1
+DAY 11
+Day 11: Harvest 2 plant Raddish from tray 1
+Day 11: Harvest 2 plant Raddish from tray 1
+Day 11: Harvest 1 plant Fennel from tray 1
+Day 11: Harvest 1 plant Cabbage from tray 1
+Day 11: Harvest 1 plant Fennel from tray 1
+DAY 12
+Day 12: Harvest 1 plant Cabbage from tray 1
+Day 12: Harvest 1 plant Fennel from tray 1
+Day 12: Harvest 1 plant Raddish from tray 1
+Day 12: Harvest 1 plant Fennel from tray 1
+Day 12: Harvest 2 plant Raddish from tray 1
+Day 12: Harvest 1 plant Strawberry from tray 3
+DAY 13
+Day 13: Harvest 2 plant Endive from tray 1
+Day 13: Harvest 1 plant Endive from tray 1
+Day 13: Harvest 2 plant Cabbage from tray 1
+Day 13: Harvest 2 plant Raddish from tray 1
+Day 13: Harvest 2 plant Cabbage from tray 1
+Day 13: Harvest 2 plant Endive from tray 1
+Day 13: Harvest 1 plant Fennel from tray 1
+Day 13: Harvest 1 plant Endive from tray 1
+Day 13: Harvest 2 plant Raddish from tray 1
+Day 13: Harvest 2 plant Cabbage from tray 1
+DAY 14
+Day 14: Harvest 1 plant Fennel from tray 1
+Day 14: Harvest 2 plant Cabbage from tray 1
+Day 14: Harvest 2 plant Strawberry from tray 3
+DAY 15
+Day 15: Harvest 2 plant Lettuce from tray 1
+Day 15: Harvest 1 plant Raddish from tray 1
+Day 15: Harvest 2 plant Lettuce from tray 1
+Day 15: Harvest 1 plant Raddish from tray 1
+Day 15: Harvest 2 plant Lettuce from tray 1
+Day 15: Harvest 1 plant Endive from tray 1
+Day 15: Harvest 1 plant Fennel from tray 1
+Day 15: Harvest 2 plant Raddish from tray 1
+Day 15: Harvest 1 plant Fennel from tray 1
+DAY 16
+Day 16: Harvest 2 plant Endive from tray 1
+Day 16: Harvest 1 plant Raddish from tray 1
+Day 16: Harvest 1 plant Raddish from tray 1
+Day 16: Harvest 2 plant Fennel from tray 1
+Day 16: Harvest 2 plant Cabbage from tray 1
+DAY 17
+Day 17: Harvest 1 plant Lettuce from tray 1
+Day 17: Harvest 2 plant Raddish from tray 1
+Day 17: Harvest 2 plant Endive from tray 1
+Day 17: Harvest 2 plant Raddish from tray 1
+Day 17: Harvest 2 plant Lettuce from tray 1
+Day 17: Harvest 2 plant Raddish from tray 1
+Day 17: Harvest 1 plant Endive from tray 1
+Day 17: Harvest 1 plant Fennel from tray 1
+Day 17: Harvest 2 plant Raddish from tray 1
+Day 17: Harvest 2 plant Endive from tray 1
+Day 17: Harvest 2 plant Endive from tray 1
+Day 17: Harvest 1 plant Raddish from tray 1
+Day 17: Harvest 2 plant Strawberry from tray 3
+DAY 18
+Day 18: Harvest 1 plant Lettuce from tray 1
+Day 18: Harvest 1 plant Raddish from tray 1
+Day 18: Harvest 1 plant Raddish from tray 1
+Day 18: Harvest 1 plant Lettuce from tray 1
+Day 18: Harvest 1 plant Raddish from tray 1
+DAY 19
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 1 plant Fennel from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+_____________________________________________________________________________________
+Lettuce:
+Day 8: Harvest 2 plant Lettuce from tray 1
+Day 9: Harvest 1 plant Lettuce from tray 1
+Day 15: Harvest 2 plant Lettuce from tray 1
+Day 15: Harvest 2 plant Lettuce from tray 1
+Day 15: Harvest 2 plant Lettuce from tray 1
+Day 17: Harvest 1 plant Lettuce from tray 1
+Day 17: Harvest 2 plant Lettuce from tray 1
+Day 18: Harvest 1 plant Lettuce from tray 1
+Day 18: Harvest 1 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+Day 19: Harvest 2 plant Lettuce from tray 1
+
+
+Endive:
+Day 7: Harvest 1 plant Endive from tray 1
+Day 7: Harvest 2 plant Endive from tray 1
+Day 7: Harvest 1 plant Endive from tray 1
+Day 7: Harvest 2 plant Endive from tray 1
+Day 10: Harvest 1 plant Endive from tray 1
+Day 10: Harvest 2 plant Endive from tray 1
+Day 13: Harvest 2 plant Endive from tray 1
+Day 13: Harvest 1 plant Endive from tray 1
+Day 13: Harvest 2 plant Endive from tray 1
+Day 13: Harvest 1 plant Endive from tray 1
+Day 15: Harvest 1 plant Endive from tray 1
+Day 16: Harvest 2 plant Endive from tray 1
+Day 17: Harvest 2 plant Endive from tray 1
+Day 17: Harvest 1 plant Endive from tray 1
+Day 17: Harvest 2 plant Endive from tray 1
+Day 17: Harvest 2 plant Endive from tray 1
+
+
+Cabbage:
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 6: Harvest 1 plant Cabbage from tray 1
+Day 8: Harvest 1 plant Cabbage from tray 1
+Day 8: Harvest 1 plant Cabbage from tray 1
+Day 9: Harvest 2 plant Cabbage from tray 1
+Day 9: Harvest 1 plant Cabbage from tray 1
+Day 9: Harvest 2 plant Cabbage from tray 1
+Day 10: Harvest 1 plant Cabbage from tray 1
+Day 11: Harvest 1 plant Cabbage from tray 1
+Day 12: Harvest 1 plant Cabbage from tray 1
+Day 13: Harvest 2 plant Cabbage from tray 1
+Day 13: Harvest 2 plant Cabbage from tray 1
+Day 13: Harvest 2 plant Cabbage from tray 1
+Day 14: Harvest 2 plant Cabbage from tray 1
+Day 16: Harvest 2 plant Cabbage from tray 1
+
+
+Fennel:
+Day 6: Harvest 2 plant Fennel from tray 1
+Day 6: Harvest 2 plant Fennel from tray 1
+Day 6: Harvest 2 plant Fennel from tray 1
+Day 8: Harvest 2 plant Fennel from tray 1
+Day 8: Harvest 1 plant Fennel from tray 1
+Day 9: Harvest 1 plant Fennel from tray 1
+Day 9: Harvest 1 plant Fennel from tray 1
+Day 10: Harvest 2 plant Fennel from tray 1
+Day 11: Harvest 1 plant Fennel from tray 1
+Day 11: Harvest 1 plant Fennel from tray 1
+Day 12: Harvest 1 plant Fennel from tray 1
+Day 12: Harvest 1 plant Fennel from tray 1
+Day 13: Harvest 1 plant Fennel from tray 1
+Day 14: Harvest 1 plant Fennel from tray 1
+Day 15: Harvest 1 plant Fennel from tray 1
+Day 15: Harvest 1 plant Fennel from tray 1
+Day 16: Harvest 2 plant Fennel from tray 1
+Day 17: Harvest 1 plant Fennel from tray 1
+Day 19: Harvest 1 plant Fennel from tray 1
+
+
+Strawberry:
+Day 12: Harvest 1 plant Strawberry from tray 3
+Day 14: Harvest 2 plant Strawberry from tray 3
+Day 17: Harvest 2 plant Strawberry from tray 3
+
+
+Raddish:
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 4: Harvest 2 plant Raddish from tray 1
+Day 6: Harvest 1 plant Raddish from tray 1
+Day 6: Harvest 2 plant Raddish from tray 1
+Day 7: Harvest 2 plant Raddish from tray 1
+Day 7: Harvest 2 plant Raddish from tray 1
+Day 9: Harvest 1 plant Raddish from tray 1
+Day 9: Harvest 1 plant Raddish from tray 1
+Day 9: Harvest 2 plant Raddish from tray 1
+Day 10: Harvest 2 plant Raddish from tray 1
+Day 10: Harvest 2 plant Raddish from tray 1
+Day 11: Harvest 2 plant Raddish from tray 1
+Day 11: Harvest 2 plant Raddish from tray 1
+Day 12: Harvest 1 plant Raddish from tray 1
+Day 12: Harvest 2 plant Raddish from tray 1
+Day 13: Harvest 2 plant Raddish from tray 1
+Day 13: Harvest 2 plant Raddish from tray 1
+Day 15: Harvest 1 plant Raddish from tray 1
+Day 15: Harvest 1 plant Raddish from tray 1
+Day 15: Harvest 2 plant Raddish from tray 1
+Day 16: Harvest 1 plant Raddish from tray 1
+Day 16: Harvest 1 plant Raddish from tray 1
+Day 17: Harvest 2 plant Raddish from tray 1
+Day 17: Harvest 2 plant Raddish from tray 1
+Day 17: Harvest 2 plant Raddish from tray 1
+Day 17: Harvest 2 plant Raddish from tray 1
+Day 17: Harvest 1 plant Raddish from tray 1
+Day 18: Harvest 1 plant Raddish from tray 1
+Day 18: Harvest 1 plant Raddish from tray 1
+Day 18: Harvest 1 plant Raddish from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+Day 19: Harvest 2 plant Raddish from tray 1
+
+
+_____________________________________________________________________________________
+    Lettuce  Endive  Cabbage  Fennel  Strawberry  Raddish
+0         0       0        0       0           0        0
+1         0       0        0       0           0        0
+2         0       0        0       0           0        0
+3         0       0        0       0           0        0
+4         0       0        0       0           0        2
+5         0       0        0       0           0        0
+6         0       0        1       2           0        2
+7         0       2        0       0           0        2
+8         2       0        1       1           0        0
+9         1       0        2       1           0        2
+10        0       2        1       2           0        2
+11        0       0        1       1           0        2
+12        0       0        1       1           1        2
+13        0       1        2       1           0        2
+14        0       0        2       1           2        0
+15        2       1        0       1           0        2
+16        0       2        2       2           0        1
+17        2       2        0       1           2        1
+18        1       0        0       0           0        1
+19        2       0        0       1           0        2

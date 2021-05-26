@@ -1,0 +1,699 @@
+DAY 0
+DAY 1
+DAY 2
+DAY 3
+DAY 4
+DAY 5
+DAY 6
+DAY 7
+DAY 8
+DAY 9
+DAY 10
+DAY 11
+DAY 12
+DAY 13
+DAY 14
+DAY 15
+DAY 16
+DAY 17
+DAY 18
+DAY 19
+DAY 20
+DAY 21
+DAY 22
+DAY 23
+DAY 24
+DAY 25
+DAY 26
+DAY 27
+DAY 28
+DAY 29
+DAY 30
+DAY 31
+Day 31: Harvest 1 plant Raddish from tray 1
+Day 31: Harvest 2 plant Raddish from tray 1
+DAY 32
+DAY 33
+DAY 34
+DAY 35
+DAY 36
+DAY 37
+DAY 38
+DAY 39
+DAY 40
+DAY 41
+DAY 42
+DAY 43
+DAY 44
+DAY 45
+DAY 46
+DAY 47
+Day 47: Harvest 1 plant Raddish from tray 1
+DAY 48
+DAY 49
+DAY 50
+DAY 51
+Day 51: Harvest 1 plant Cabbage from tray 1
+Day 51: Harvest 1 plant Fennel from tray 1
+Day 51: Harvest 2 plant Cabbage from tray 1
+Day 51: Harvest 1 plant Cabbage from tray 1
+Day 51: Harvest 1 plant Fennel from tray 1
+Day 51: Harvest 2 plant Fennel from tray 1
+DAY 52
+DAY 53
+DAY 54
+DAY 55
+DAY 56
+DAY 57
+DAY 58
+DAY 59
+DAY 60
+DAY 61
+Day 61: Harvest 1 plant Endive from tray 1
+DAY 62
+Day 62: Harvest 1 plant Endive from tray 1
+DAY 63
+Day 63: Harvest 1 plant Endive from tray 1
+DAY 64
+Day 64: Harvest 1 plant Endive from tray 1
+DAY 65
+Day 65: Harvest 1 plant Endive from tray 1
+DAY 66
+Day 66: Harvest 1 plant Endive from tray 1
+DAY 67
+Day 67: Harvest 1 plant Cabbage from tray 1
+DAY 68
+Day 68: Harvest 1 plant Endive from tray 1
+DAY 69
+Day 69: Harvest 1 plant Endive from tray 1
+DAY 70
+Day 70: Harvest 1 plant Endive from tray 1
+DAY 71
+Day 71: Harvest 1 plant Endive from tray 1
+DAY 72
+Day 72: Harvest 1 plant Endive from tray 1
+DAY 73
+Day 73: Harvest 1 plant Endive from tray 1
+DAY 74
+Day 74: Harvest 1 plant Fennel from tray 1
+DAY 75
+Day 75: Harvest 1 plant Cabbage from tray 1
+DAY 76
+Day 76: Harvest 1 plant Raddish from tray 1
+DAY 77
+Day 77: Harvest 1 plant Lettuce from tray 1
+DAY 78
+Day 78: Harvest 1 plant Lettuce from tray 1
+DAY 79
+Day 79: Harvest 1 plant Lettuce from tray 1
+DAY 80
+Day 80: Harvest 1 plant Endive from tray 1
+DAY 81
+Day 81: Harvest 1 plant Fennel from tray 1
+DAY 82
+Day 82: Harvest 1 plant Endive from tray 1
+DAY 83
+Day 83: Harvest 1 plant Endive from tray 1
+DAY 84
+Day 84: Harvest 1 plant Endive from tray 1
+DAY 85
+Day 85: Harvest 1 plant Raddish from tray 1
+DAY 86
+Day 86: Harvest 1 plant Raddish from tray 1
+DAY 87
+Day 87: Harvest 1 plant Endive from tray 1
+DAY 88
+Day 88: Harvest 1 plant Fennel from tray 1
+DAY 89
+Day 89: Harvest 1 plant Lettuce from tray 1
+DAY 90
+Day 90: Harvest 1 plant Lettuce from tray 1
+DAY 91
+Day 91: Harvest 1 plant Raddish from tray 1
+DAY 92
+Day 92: Harvest 1 plant Cabbage from tray 1
+DAY 93
+Day 93: Harvest 1 plant Lettuce from tray 1
+DAY 94
+Day 94: Harvest 1 plant Raddish from tray 1
+DAY 95
+Day 95: Harvest 1 plant Raddish from tray 1
+DAY 96
+Day 96: Harvest 1 plant Raddish from tray 1
+DAY 97
+Day 97: Harvest 1 plant Raddish from tray 1
+DAY 98
+Day 98: Harvest 1 plant Raddish from tray 1
+DAY 99
+Day 99: Harvest 1 plant Raddish from tray 1
+DAY 100
+Day 100: Harvest 1 plant Raddish from tray 1
+DAY 101
+Day 101: Harvest 1 plant Raddish from tray 1
+DAY 102
+Day 102: Harvest 1 plant Raddish from tray 1
+DAY 103
+Day 103: Harvest 1 plant Raddish from tray 1
+DAY 104
+Day 104: Harvest 1 plant Raddish from tray 1
+DAY 105
+Day 105: Harvest 1 plant Fennel from tray 1
+DAY 106
+Day 106: Harvest 1 plant Endive from tray 1
+DAY 107
+Day 107: Harvest 1 plant Endive from tray 1
+DAY 108
+Day 108: Harvest 1 plant Fennel from tray 1
+DAY 109
+Day 109: Harvest 1 plant Raddish from tray 1
+DAY 110
+Day 110: Harvest 1 plant Raddish from tray 1
+DAY 111
+Day 111: Harvest 1 plant Raddish from tray 1
+DAY 112
+Day 112: Harvest 1 plant Raddish from tray 1
+DAY 113
+Day 113: Harvest 1 plant Raddish from tray 1
+DAY 114
+Day 114: Harvest 1 plant Raddish from tray 1
+DAY 115
+Day 115: Harvest 1 plant Raddish from tray 1
+DAY 116
+Day 116: Harvest 1 plant Raddish from tray 1
+DAY 117
+Day 117: Harvest 1 plant Raddish from tray 1
+DAY 118
+Day 118: Harvest 1 plant Raddish from tray 1
+DAY 119
+Day 119: Harvest 1 plant Raddish from tray 1
+DAY 120
+Day 120: Harvest 1 plant Strawberry from tray 3
+DAY 121
+Day 121: Harvest 2 plant Strawberry from tray 3
+DAY 122
+Day 122: Harvest 1 plant Cabbage from tray 1
+DAY 123
+Day 123: Harvest 1 plant Raddish from tray 1
+DAY 124
+Day 124: Harvest 1 plant Strawberry from tray 3
+DAY 125
+Day 125: Harvest 1 plant Raddish from tray 1
+DAY 126
+Day 126: Harvest 1 plant Strawberry from tray 3
+DAY 127
+Day 127: Harvest 1 plant Fennel from tray 1
+DAY 128
+Day 128: Harvest 1 plant Raddish from tray 1
+DAY 129
+Day 129: Harvest 1 plant Cabbage from tray 1
+DAY 130
+Day 130: Harvest 1 plant Raddish from tray 1
+DAY 131
+Day 131: Harvest 1 plant Cabbage from tray 1
+DAY 132
+Day 132: Harvest 1 plant Endive from tray 1
+DAY 133
+Day 133: Harvest 1 plant Raddish from tray 1
+DAY 134
+Day 134: Harvest 1 plant Cabbage from tray 1
+DAY 135
+Day 135: Harvest 1 plant Fennel from tray 1
+DAY 136
+Day 136: Harvest 1 plant Endive from tray 1
+DAY 137
+Day 137: Harvest 1 plant Raddish from tray 1
+DAY 138
+Day 138: Harvest 1 plant Raddish from tray 1
+DAY 139
+Day 139: Harvest 2 plant Strawberry from tray 3
+DAY 140
+Day 140: Harvest 1 plant Cabbage from tray 1
+DAY 141
+Day 141: Harvest 1 plant Strawberry from tray 3
+DAY 142
+Day 142: Harvest 1 plant Strawberry from tray 3
+DAY 143
+Day 143: Harvest 1 plant Strawberry from tray 3
+DAY 144
+Day 144: Harvest 1 plant Endive from tray 1
+DAY 145
+Day 145: Harvest 1 plant Cabbage from tray 1
+DAY 146
+Day 146: Harvest 1 plant Cabbage from tray 1
+DAY 147
+Day 147: Harvest 1 plant Raddish from tray 1
+DAY 148
+Day 148: Harvest 1 plant Strawberry from tray 3
+DAY 149
+Day 149: Harvest 2 plant Strawberry from tray 3
+DAY 150
+Day 150: Harvest 1 plant Fennel from tray 1
+DAY 151
+Day 151: Harvest 1 plant Cabbage from tray 1
+Day 151: Harvest 1 plant Cabbage from tray 1
+Day 151: Harvest 1 plant Cabbage from tray 1
+DAY 152
+Day 152: Harvest 1 plant Strawberry from tray 3
+DAY 153
+Day 153: Harvest 1 plant Fennel from tray 1
+Day 153: Harvest 1 plant Lettuce from tray 1
+DAY 154
+Day 154: Harvest 1 plant Fennel from tray 1
+Day 154: Harvest 2 plant Lettuce from tray 1
+Day 154: Harvest 1 plant Strawberry from tray 3
+DAY 155
+Day 155: Harvest 1 plant Cabbage from tray 1
+Day 155: Harvest 1 plant Lettuce from tray 1
+Day 155: Harvest 1 plant Fennel from tray 1
+Day 155: Harvest 1 plant Cabbage from tray 1
+DAY 156
+Day 156: Harvest 1 plant Lettuce from tray 1
+DAY 157
+Day 157: Harvest 1 plant Cabbage from tray 1
+DAY 158
+Day 158: Harvest 1 plant Fennel from tray 1
+DAY 159
+Day 159: Harvest 1 plant Fennel from tray 1
+DAY 160
+Day 160: Harvest 1 plant Lettuce from tray 1
+DAY 161
+Day 161: Harvest 1 plant Lettuce from tray 1
+DAY 162
+Day 162: Harvest 1 plant Fennel from tray 1
+DAY 163
+Day 163: Harvest 1 plant Cabbage from tray 1
+DAY 164
+Day 164: Harvest 1 plant Raddish from tray 1
+DAY 165
+Day 165: Harvest 1 plant Fennel from tray 1
+DAY 166
+Day 166: Harvest 1 plant Lettuce from tray 1
+DAY 167
+Day 167: Harvest 1 plant Strawberry from tray 3
+DAY 168
+Day 168: Harvest 1 plant Cabbage from tray 1
+DAY 169
+Day 169: Harvest 1 plant Strawberry from tray 3
+DAY 170
+Day 170: Harvest 1 plant Strawberry from tray 3
+DAY 171
+Day 171: Harvest 1 plant Strawberry from tray 3
+DAY 172
+Day 172: Harvest 1 plant Strawberry from tray 3
+DAY 173
+Day 173: Harvest 1 plant Raddish from tray 1
+DAY 174
+Day 174: Harvest 1 plant Raddish from tray 1
+DAY 175
+Day 175: Harvest 1 plant Raddish from tray 1
+DAY 176
+Day 176: Harvest 1 plant Strawberry from tray 3
+DAY 177
+Day 177: Harvest 1 plant Strawberry from tray 3
+DAY 178
+Day 178: Harvest 1 plant Raddish from tray 1
+DAY 179
+Day 179: Harvest 1 plant Lettuce from tray 1
+Day 179: Harvest 1 plant Strawberry from tray 3
+DAY 180
+Day 180: Harvest 1 plant Fennel from tray 1
+Day 180: Harvest 1 plant Lettuce from tray 1
+Day 180: Harvest 1 plant Endive from tray 1
+Day 180: Harvest 1 plant Raddish from tray 1
+DAY 181
+Day 181: Harvest 1 plant Lettuce from tray 1
+Day 181: Harvest 1 plant Cabbage from tray 1
+Day 181: Harvest 1 plant Raddish from tray 1
+Day 181: Harvest 2 plant Lettuce from tray 1
+Day 181: Harvest 1 plant Cabbage from tray 1
+Day 181: Harvest 1 plant Lettuce from tray 1
+Day 181: Harvest 2 plant Raddish from tray 1
+Day 181: Harvest 2 plant Lettuce from tray 1
+Day 181: Harvest 1 plant Endive from tray 1
+Day 181: Harvest 1 plant Fennel from tray 1
+Day 181: Harvest 1 plant Raddish from tray 1
+Day 181: Harvest 1 plant Lettuce from tray 1
+Day 181: Harvest 2 plant Fennel from tray 1
+Day 181: Harvest 1 plant Lettuce from tray 1
+Day 181: Harvest 1 plant Fennel from tray 1
+Day 181: Harvest 1 plant Strawberry from tray 3
+_____________________________________________________________________________________
+Lettuce:
+Day 77: Harvest 1 plant Lettuce from tray 1
+Day 78: Harvest 1 plant Lettuce from tray 1
+Day 79: Harvest 1 plant Lettuce from tray 1
+Day 89: Harvest 1 plant Lettuce from tray 1
+Day 90: Harvest 1 plant Lettuce from tray 1
+Day 93: Harvest 1 plant Lettuce from tray 1
+Day 153: Harvest 1 plant Lettuce from tray 1
+Day 154: Harvest 2 plant Lettuce from tray 1
+Day 155: Harvest 1 plant Lettuce from tray 1
+Day 156: Harvest 1 plant Lettuce from tray 1
+Day 160: Harvest 1 plant Lettuce from tray 1
+Day 161: Harvest 1 plant Lettuce from tray 1
+Day 166: Harvest 1 plant Lettuce from tray 1
+Day 179: Harvest 1 plant Lettuce from tray 1
+Day 180: Harvest 1 plant Lettuce from tray 1
+Day 181: Harvest 1 plant Lettuce from tray 1
+Day 181: Harvest 2 plant Lettuce from tray 1
+Day 181: Harvest 1 plant Lettuce from tray 1
+Day 181: Harvest 2 plant Lettuce from tray 1
+Day 181: Harvest 1 plant Lettuce from tray 1
+Day 181: Harvest 1 plant Lettuce from tray 1
+
+
+Endive:
+Day 61: Harvest 1 plant Endive from tray 1
+Day 62: Harvest 1 plant Endive from tray 1
+Day 63: Harvest 1 plant Endive from tray 1
+Day 64: Harvest 1 plant Endive from tray 1
+Day 65: Harvest 1 plant Endive from tray 1
+Day 66: Harvest 1 plant Endive from tray 1
+Day 68: Harvest 1 plant Endive from tray 1
+Day 69: Harvest 1 plant Endive from tray 1
+Day 70: Harvest 1 plant Endive from tray 1
+Day 71: Harvest 1 plant Endive from tray 1
+Day 72: Harvest 1 plant Endive from tray 1
+Day 73: Harvest 1 plant Endive from tray 1
+Day 80: Harvest 1 plant Endive from tray 1
+Day 82: Harvest 1 plant Endive from tray 1
+Day 83: Harvest 1 plant Endive from tray 1
+Day 84: Harvest 1 plant Endive from tray 1
+Day 87: Harvest 1 plant Endive from tray 1
+Day 106: Harvest 1 plant Endive from tray 1
+Day 107: Harvest 1 plant Endive from tray 1
+Day 132: Harvest 1 plant Endive from tray 1
+Day 136: Harvest 1 plant Endive from tray 1
+Day 144: Harvest 1 plant Endive from tray 1
+Day 180: Harvest 1 plant Endive from tray 1
+Day 181: Harvest 1 plant Endive from tray 1
+
+
+Cabbage:
+Day 51: Harvest 1 plant Cabbage from tray 1
+Day 51: Harvest 2 plant Cabbage from tray 1
+Day 51: Harvest 1 plant Cabbage from tray 1
+Day 67: Harvest 1 plant Cabbage from tray 1
+Day 75: Harvest 1 plant Cabbage from tray 1
+Day 92: Harvest 1 plant Cabbage from tray 1
+Day 122: Harvest 1 plant Cabbage from tray 1
+Day 129: Harvest 1 plant Cabbage from tray 1
+Day 131: Harvest 1 plant Cabbage from tray 1
+Day 134: Harvest 1 plant Cabbage from tray 1
+Day 140: Harvest 1 plant Cabbage from tray 1
+Day 145: Harvest 1 plant Cabbage from tray 1
+Day 146: Harvest 1 plant Cabbage from tray 1
+Day 151: Harvest 1 plant Cabbage from tray 1
+Day 151: Harvest 1 plant Cabbage from tray 1
+Day 151: Harvest 1 plant Cabbage from tray 1
+Day 155: Harvest 1 plant Cabbage from tray 1
+Day 155: Harvest 1 plant Cabbage from tray 1
+Day 157: Harvest 1 plant Cabbage from tray 1
+Day 163: Harvest 1 plant Cabbage from tray 1
+Day 168: Harvest 1 plant Cabbage from tray 1
+Day 181: Harvest 1 plant Cabbage from tray 1
+Day 181: Harvest 1 plant Cabbage from tray 1
+
+
+Fennel:
+Day 51: Harvest 1 plant Fennel from tray 1
+Day 51: Harvest 1 plant Fennel from tray 1
+Day 51: Harvest 2 plant Fennel from tray 1
+Day 74: Harvest 1 plant Fennel from tray 1
+Day 81: Harvest 1 plant Fennel from tray 1
+Day 88: Harvest 1 plant Fennel from tray 1
+Day 105: Harvest 1 plant Fennel from tray 1
+Day 108: Harvest 1 plant Fennel from tray 1
+Day 127: Harvest 1 plant Fennel from tray 1
+Day 135: Harvest 1 plant Fennel from tray 1
+Day 150: Harvest 1 plant Fennel from tray 1
+Day 153: Harvest 1 plant Fennel from tray 1
+Day 154: Harvest 1 plant Fennel from tray 1
+Day 155: Harvest 1 plant Fennel from tray 1
+Day 158: Harvest 1 plant Fennel from tray 1
+Day 159: Harvest 1 plant Fennel from tray 1
+Day 162: Harvest 1 plant Fennel from tray 1
+Day 165: Harvest 1 plant Fennel from tray 1
+Day 180: Harvest 1 plant Fennel from tray 1
+Day 181: Harvest 1 plant Fennel from tray 1
+Day 181: Harvest 2 plant Fennel from tray 1
+Day 181: Harvest 1 plant Fennel from tray 1
+
+
+Strawberry:
+Day 120: Harvest 1 plant Strawberry from tray 3
+Day 121: Harvest 2 plant Strawberry from tray 3
+Day 124: Harvest 1 plant Strawberry from tray 3
+Day 126: Harvest 1 plant Strawberry from tray 3
+Day 139: Harvest 2 plant Strawberry from tray 3
+Day 141: Harvest 1 plant Strawberry from tray 3
+Day 142: Harvest 1 plant Strawberry from tray 3
+Day 143: Harvest 1 plant Strawberry from tray 3
+Day 148: Harvest 1 plant Strawberry from tray 3
+Day 149: Harvest 2 plant Strawberry from tray 3
+Day 152: Harvest 1 plant Strawberry from tray 3
+Day 154: Harvest 1 plant Strawberry from tray 3
+Day 167: Harvest 1 plant Strawberry from tray 3
+Day 169: Harvest 1 plant Strawberry from tray 3
+Day 170: Harvest 1 plant Strawberry from tray 3
+Day 171: Harvest 1 plant Strawberry from tray 3
+Day 172: Harvest 1 plant Strawberry from tray 3
+Day 176: Harvest 1 plant Strawberry from tray 3
+Day 177: Harvest 1 plant Strawberry from tray 3
+Day 179: Harvest 1 plant Strawberry from tray 3
+Day 181: Harvest 1 plant Strawberry from tray 3
+
+
+Raddish:
+Day 31: Harvest 1 plant Raddish from tray 1
+Day 31: Harvest 2 plant Raddish from tray 1
+Day 47: Harvest 1 plant Raddish from tray 1
+Day 76: Harvest 1 plant Raddish from tray 1
+Day 85: Harvest 1 plant Raddish from tray 1
+Day 86: Harvest 1 plant Raddish from tray 1
+Day 91: Harvest 1 plant Raddish from tray 1
+Day 94: Harvest 1 plant Raddish from tray 1
+Day 95: Harvest 1 plant Raddish from tray 1
+Day 96: Harvest 1 plant Raddish from tray 1
+Day 97: Harvest 1 plant Raddish from tray 1
+Day 98: Harvest 1 plant Raddish from tray 1
+Day 99: Harvest 1 plant Raddish from tray 1
+Day 100: Harvest 1 plant Raddish from tray 1
+Day 101: Harvest 1 plant Raddish from tray 1
+Day 102: Harvest 1 plant Raddish from tray 1
+Day 103: Harvest 1 plant Raddish from tray 1
+Day 104: Harvest 1 plant Raddish from tray 1
+Day 109: Harvest 1 plant Raddish from tray 1
+Day 110: Harvest 1 plant Raddish from tray 1
+Day 111: Harvest 1 plant Raddish from tray 1
+Day 112: Harvest 1 plant Raddish from tray 1
+Day 113: Harvest 1 plant Raddish from tray 1
+Day 114: Harvest 1 plant Raddish from tray 1
+Day 115: Harvest 1 plant Raddish from tray 1
+Day 116: Harvest 1 plant Raddish from tray 1
+Day 117: Harvest 1 plant Raddish from tray 1
+Day 118: Harvest 1 plant Raddish from tray 1
+Day 119: Harvest 1 plant Raddish from tray 1
+Day 123: Harvest 1 plant Raddish from tray 1
+Day 125: Harvest 1 plant Raddish from tray 1
+Day 128: Harvest 1 plant Raddish from tray 1
+Day 130: Harvest 1 plant Raddish from tray 1
+Day 133: Harvest 1 plant Raddish from tray 1
+Day 137: Harvest 1 plant Raddish from tray 1
+Day 138: Harvest 1 plant Raddish from tray 1
+Day 147: Harvest 1 plant Raddish from tray 1
+Day 164: Harvest 1 plant Raddish from tray 1
+Day 173: Harvest 1 plant Raddish from tray 1
+Day 174: Harvest 1 plant Raddish from tray 1
+Day 175: Harvest 1 plant Raddish from tray 1
+Day 178: Harvest 1 plant Raddish from tray 1
+Day 180: Harvest 1 plant Raddish from tray 1
+Day 181: Harvest 1 plant Raddish from tray 1
+Day 181: Harvest 2 plant Raddish from tray 1
+Day 181: Harvest 1 plant Raddish from tray 1
+
+
+_____________________________________________________________________________________
+     Lettuce  Endive  Cabbage  Fennel  Strawberry  Raddish
+0          0       0        0       0           0        0
+1          0       0        0       0           0        0
+2          0       0        0       0           0        0
+3          0       0        0       0           0        0
+4          0       0        0       0           0        0
+5          0       0        0       0           0        0
+6          0       0        0       0           0        0
+7          0       0        0       0           0        0
+8          0       0        0       0           0        0
+9          0       0        0       0           0        0
+10         0       0        0       0           0        0
+11         0       0        0       0           0        0
+12         0       0        0       0           0        0
+13         0       0        0       0           0        0
+14         0       0        0       0           0        0
+15         0       0        0       0           0        0
+16         0       0        0       0           0        0
+17         0       0        0       0           0        0
+18         0       0        0       0           0        0
+19         0       0        0       0           0        0
+20         0       0        0       0           0        0
+21         0       0        0       0           0        0
+22         0       0        0       0           0        0
+23         0       0        0       0           0        0
+24         0       0        0       0           0        0
+25         0       0        0       0           0        0
+26         0       0        0       0           0        0
+27         0       0        0       0           0        0
+28         0       0        0       0           0        0
+29         0       0        0       0           0        0
+30         0       0        0       0           0        0
+31         0       0        0       0           0        2
+32         0       0        0       0           0        0
+33         0       0        0       0           0        0
+34         0       0        0       0           0        0
+35         0       0        0       0           0        0
+36         0       0        0       0           0        0
+37         0       0        0       0           0        0
+38         0       0        0       0           0        0
+39         0       0        0       0           0        0
+40         0       0        0       0           0        0
+41         0       0        0       0           0        0
+42         0       0        0       0           0        0
+43         0       0        0       0           0        0
+44         0       0        0       0           0        0
+45         0       0        0       0           0        0
+46         0       0        0       0           0        0
+47         0       0        0       0           0        1
+48         0       0        0       0           0        0
+49         0       0        0       0           0        0
+50         0       0        0       0           0        0
+51         0       0        1       2           0        0
+52         0       0        0       0           0        0
+53         0       0        0       0           0        0
+54         0       0        0       0           0        0
+55         0       0        0       0           0        0
+56         0       0        0       0           0        0
+57         0       0        0       0           0        0
+58         0       0        0       0           0        0
+59         0       0        0       0           0        0
+60         0       0        0       0           0        0
+61         0       1        0       0           0        0
+62         0       1        0       0           0        0
+63         0       1        0       0           0        0
+64         0       1        0       0           0        0
+65         0       1        0       0           0        0
+66         0       1        0       0           0        0
+67         0       0        1       0           0        0
+68         0       1        0       0           0        0
+69         0       1        0       0           0        0
+70         0       1        0       0           0        0
+71         0       1        0       0           0        0
+72         0       1        0       0           0        0
+73         0       1        0       0           0        0
+74         0       0        0       1           0        0
+75         0       0        1       0           0        0
+76         0       0        0       0           0        1
+77         1       0        0       0           0        0
+78         1       0        0       0           0        0
+79         1       0        0       0           0        0
+80         0       1        0       0           0        0
+81         0       0        0       1           0        0
+82         0       1        0       0           0        0
+83         0       1        0       0           0        0
+84         0       1        0       0           0        0
+85         0       0        0       0           0        1
+86         0       0        0       0           0        1
+87         0       1        0       0           0        0
+88         0       0        0       1           0        0
+89         1       0        0       0           0        0
+90         1       0        0       0           0        0
+91         0       0        0       0           0        1
+92         0       0        1       0           0        0
+93         1       0        0       0           0        0
+94         0       0        0       0           0        1
+95         0       0        0       0           0        1
+96         0       0        0       0           0        1
+97         0       0        0       0           0        1
+98         0       0        0       0           0        1
+99         0       0        0       0           0        1
+100        0       0        0       0           0        1
+101        0       0        0       0           0        1
+102        0       0        0       0           0        1
+103        0       0        0       0           0        1
+104        0       0        0       0           0        1
+105        0       0        0       1           0        0
+106        0       1        0       0           0        0
+107        0       1        0       0           0        0
+108        0       0        0       1           0        0
+109        0       0        0       0           0        1
+110        0       0        0       0           0        1
+111        0       0        0       0           0        1
+112        0       0        0       0           0        1
+113        0       0        0       0           0        1
+114        0       0        0       0           0        1
+115        0       0        0       0           0        1
+116        0       0        0       0           0        1
+117        0       0        0       0           0        1
+118        0       0        0       0           0        1
+119        0       0        0       0           0        1
+120        0       0        0       0           1        0
+121        0       0        0       0           2        0
+122        0       0        1       0           0        0
+123        0       0        0       0           0        1
+124        0       0        0       0           1        0
+125        0       0        0       0           0        1
+126        0       0        0       0           1        0
+127        0       0        0       1           0        0
+128        0       0        0       0           0        1
+129        0       0        1       0           0        0
+130        0       0        0       0           0        1
+131        0       0        1       0           0        0
+132        0       1        0       0           0        0
+133        0       0        0       0           0        1
+134        0       0        1       0           0        0
+135        0       0        0       1           0        0
+136        0       1        0       0           0        0
+137        0       0        0       0           0        1
+138        0       0        0       0           0        1
+139        0       0        0       0           2        0
+140        0       0        1       0           0        0
+141        0       0        0       0           1        0
+142        0       0        0       0           1        0
+143        0       0        0       0           1        0
+144        0       1        0       0           0        0
+145        0       0        1       0           0        0
+146        0       0        1       0           0        0
+147        0       0        0       0           0        1
+148        0       0        0       0           1        0
+149        0       0        0       0           2        0
+150        0       0        0       1           0        0
+151        0       0        1       0           0        0
+152        0       0        0       0           1        0
+153        1       0        0       1           0        0
+154        2       0        0       1           1        0
+155        1       0        1       1           0        0
+156        1       0        0       0           0        0
+157        0       0        1       0           0        0
+158        0       0        0       1           0        0
+159        0       0        0       1           0        0
+160        1       0        0       0           0        0
+161        1       0        0       0           0        0
+162        0       0        0       1           0        0
+163        0       0        1       0           0        0
+164        0       0        0       0           0        1
+165        0       0        0       1           0        0
+166        1       0        0       0           0        0
+167        0       0        0       0           1        0
+168        0       0        1       0           0        0
+169        0       0        0       0           1        0
+170        0       0        0       0           1        0
+171        0       0        0       0           1        0
+172        0       0        0       0           1        0
+173        0       0        0       0           0        1
+174        0       0        0       0           0        1
+175        0       0        0       0           0        1
+176        0       0        0       0           1        0
+177        0       0        0       0           1        0
+178        0       0        0       0           0        1
+179        1       0        0       0           1        0
+180        1       1        0       1           0        1
+181        1       1        1       1           1        1
