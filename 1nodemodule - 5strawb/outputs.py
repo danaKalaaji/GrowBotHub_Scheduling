@@ -17,33 +17,35 @@ def write_outputs():
 	total_plants = 0
 	original_stdout = sys.stdout
 	
+
+
+
+
 	# Writing the instructions output
 	f = open("output.txt", "w")
 	sys.stdout = f
 
 	instructions = [[] for i in range(inputs.HORIZON + 2)]
-
 	# Three types of instructions (See the Instruction() class in the classes.py file)
 	for e in gc.g.edges:
-		if e[0].type == 'hole' and e[1].type == 'hole' and e[0].where != e[1].where:
+		if e[0].type == 'module' and e[1].type == 'module' and e[0].where != e[1].where:
 			for p in plants.plants:
 				if (e[0], e[1], p) in opti.flow_vars and opti.flow_vars[e[0], e[1], p].varValue > 0:
 
-					instructions[e[1].when].append(Instruction(p[0].name, opti.flow_vars[e[0], e[1], p].varValue,'hole_transfer', e[0].hole,
-															   e[0].tray, e[1].hole, e[1].tray))
-		if e[0].type == 'source' and e[1].type == 'hole':
+					instructions[e[1].when].append(Instruction(p[0].name, opti.flow_vars[e[0], e[1], p].varValue,'module_transfer', e[0].module_number,
+															   e[0].module_type, e[1].module_number, e[1].module_type))
+		if e[0].type == 'source' and e[1].type == 'module':
 			for p in plants.plants:
 				if (e[0], e[1], p) in opti.flow_vars and opti.flow_vars[e[0], e[1], p].varValue > 0:
 					instructions[e[1].when].append(Instruction(
-						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'source_transfer', e[1].hole, e[1].tray))
+						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'source_transfer', e[1].module_number, e[1].module_type))
 					total_plants += opti.flow_vars[e[0], e[1], p].varValue
 
-		if e[0].type == 'hole' and e[1].type == 'sink':
+		if e[0].type == 'module' and e[1].type == 'sink':
 			for p in plants.plants:
 				if (e[0], e[1], p) in opti.flow_vars and opti.flow_vars[e[0], e[1], p].varValue > 0:
 					instructions[e[0].when + 1].append(Instruction(
-						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'sink_transfer', e[0].hole, e[0].tray))
-
+						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'sink_transfer', e[0].module_number, e[0].module_type))
 
 	for i in range(len(instructions)):
 		print("DAY " + str(i))
@@ -54,19 +56,22 @@ def write_outputs():
 	f.close()
 
 
-		# Writing the growth modules states output
+
+
+
+
+	# Writing the growth modules states output
 	f = open("output2.txt", "w")
+	sys.stdout = f
 
-	states = [[[] for i in range(inputs.HORIZON + 1)] for k in range(len(inputs.TRAYS))]
-
+	states = [[[] for i in range(inputs.HORIZON + 1)] for k in range(len(inputs.MODULES))]
 	for e in gc.g.edges:
-		if e[1].type == 'hole':
+		if e[1].type == 'module':
 			for p in plants.plants:
 				if (e[0].type != 'source' or e[1].when == 0) and (e[0], e[1], p) in opti.flow_vars and opti.flow_vars[e[0], e[1], p].varValue > 0:
-					states[e[1].tray][e[1].when].append(
-						"Hole : " + str(e[1].hole) + " | Plant : " + p[0].name)
+					states[e[1].module_type][e[1].when].append(
+						"Module : " + str(e[1].module_number) + " | Plant : " + p[0].name)
 
-	sys.stdout = f
 	for i in range(len(states)):
 		print("GROWTH MODULE " + str(i))
 		for j in range(len(states[i])):
@@ -77,25 +82,10 @@ def write_outputs():
 
 	sys.stdout = original_stdout
 	f.close()
-	print("total number of plants is:", total_plants)
 
 
 
-
-
-	f = open("output_compare.txt", "w")
-	sys.stdout = f
-	for i in range(len(instructions)):
-		print("DAY " + str(i))
-		for s in instructions[i]:
-			for i in range(int(s.number)):
-				print(s.toString_compare())	
-
-	sys.stdout = original_stdout
-	f.close() 
-
-
-	#	Day by day what plants we are harvesting + For each type of plants the day it is being harvested
+	#Day by day what plants we are harvesting + For each type of plants the day it is being harvested
 	f = open("output_harvested.txt", "w")
 	sys.stdout = f
 	harvested = [[] for p in range(edges.n_plants)]
@@ -127,8 +117,24 @@ def write_outputs():
 	print(df.transpose())
 
 
-
 	sys.stdout = original_stdout
 	f.close()
+
+	print("total number of plants is:", total_plants)
+
+	
+'''
+	f = open("output_compare.txt", "w")
+	sys.stdout = f
+	for i in range(len(instructions)):
+		print("DAY " + str(i))
+		for s in instructions[i]:
+			for i in range(int(s.number)):
+				print(s.toString_compare())	
+
+	sys.stdout = original_stdout
+	f.close() 
+'''
+
 	
 

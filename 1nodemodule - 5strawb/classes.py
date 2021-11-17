@@ -3,31 +3,32 @@ import numpy as np
 
 ###  ALL THE CLASSES  ###
 
-## NODE CLASS ##
 
-# This class defines a node of the graph
+'''
+NODE CLASS : This class defines a node of the graph
 
-# Arguments of a hole :
-# - where : gives the position on the graph to be able to draw it
-# - when : gives the time that this node represent (if it is a 'hole')
-# - sink : true only if the node is a sink
-# - type : the type of the node (hole, source, sink)
-# If the node is of type 'hole' :
-# - tray : gives the tray in which the hole is (from 0 to TRAYS-1)
-# - hole : gives the number of the hole (from 0 to HOLES-1)
+Parameters of a node :
+    where (int): gives the position on the graph to be able to draw it
+    when (int): gives the time that this node represent (if it is a 'module')
+    sink (boolean): true only if the node is a sink
+    type (string): the type of the node (module, source, sink)
+If the node is of type 'module' :
+    module_type (int): gives the type of the module (from 0 to NB_TYPE_MODULE)
+    module_number (int): gives the number of the module (from 0 to MODULES[type of module])
+'''
 
 
 class Node(object):
     def __init__(self, *args):
 
-        #('hole', tray, hole, when)
-        if args[0] == 'hole':
-            self.where = args[1] * (np.amax(inputs.TRAYS)+2) + args[2]
+        #('module', module_type, module_number, when)
+        if args[0] == 'module':
+            self.where = args[1] * (np.amax(inputs.MODULES)+2) + args[2]
             self.when = args[3]
             self.sink = False
-            self.type = 'hole'
-            self.tray = args[1]
-            self.hole = args[2]
+            self.type = 'module'
+            self.module_type = args[1]
+            self.module_number = args[2]
 
         #('source', where, when)
         elif args[0] == 'source':
@@ -43,9 +44,9 @@ class Node(object):
             self.sink = True
             self.type = 'sink'
 
-        # True if the two holes are neighbors
+        # True if the two module are neighbors
     def neighbors(self, other):
-        return self.type == 'hole' and other.type == 'hole' and self.when == other.when and abs(self.where - other.where) == 1
+        return self.type == 'module' and other.type == 'module' and self.when == other.when and abs(self.where - other.where) == 1
 
     def __eq__(self, other):
         return self.where == other.where and self.when == other.when and self.type == other.type
@@ -53,24 +54,24 @@ class Node(object):
     def __hash__(self):
         return hash((self.where, self.when, self.type))
 
-## PLANT CLASS ##
 
-# This class defines a plant in our system
 
-# Arguments of a plant :
-# - name : the name of the plant
-# - total_days : the total number of days, from the seeding to the harvesting
-# - color : the color of the plant on the optimized graph
-# - size : the different sizes in time of the plant
-# - transfers : list of the growth module in which the plant has to pass (in the list order)
-# - transfer_days : gives the number of days the plant has to stay in each growth module
 
+'''
+PLANT CLASS : This class defines a plant in our system
+
+Parameters of a plant:
+    name (string): the name of the plant
+    total_days (int): the total number of days, from the seeding to the harvesting
+    size(list): array storing for each day the size of the plant
+    transfers(list): list of the growth module in which the plant has to pass (in the list order)
+    transfer_days(list): array that gives the number of days the plant has to stay in each growth module
+'''
 
 class Plant():
-    def __init__(self, name, total_days, color, size, transfers, transfer_days):
+    def __init__(self, name, total_days, size, transfers, transfer_days):
         self.name = name
         self.total_days = total_days
-        self.color = color
         self.size = size
         self.transfers = transfers
         self.transfer_days = transfer_days
@@ -81,59 +82,70 @@ class Plant():
 
         # Sink of the plant
     def sink(self, size):
-        return Node('sink', len(inputs.TRAYS) * (np.amax(inputs.TRAYS) + 2) + 1, size)
+        return Node('sink', inputs.NB_TYPE_MODULE * (np.amax(inputs.MODULES) + 2) + 1, size)
 
-## INSTRUCTION CLASS ##
 
-# This class defines an instruction that the robotic arm will have to perform
 
-# Arguments of an instruction :
-# - name : the name of the plant
-# - type : the type of the transfer (hole, source, sink)
-# For a hole transfer :
-# - hole_from : the hole from which the plant comes
-# - hole_to : the hole in which the plant goes
-# - tray_from : the growth module from which the plant comes
-# - tray_to : the growth module in which the plant goes
-# Arguments for the source and sink transfers mean the same as the arguments for hole transfers
 
+
+'''
+INSTRUCTION CLASS : This class defines an instruction that the robotic arm will have to perform
+
+Parameters of an instruction :
+    name (string): the name of the plant
+    number (int): number of plants 
+    type (string): the type of the transfer (module, source, sink)
+For a module transfer :
+    type_from (int): the growth module type from which the plant comes
+    module_from (int): the module from which the plant comes
+    type_to (int): the growth module type in which the plant goes
+    module_to (int): the module in which the plant goes
+For a source transfer :
+    type_to (int): the growth module type in which the plant goes
+    module_to (int): the module in which the plant goes
+For a sink transfer :
+    type_from (int): the growth module type in which the plant goes
+    module_from (int): the module in which the plant goes
+'''
 
 class Instruction():
     def __init__(self, name, number,*args):
         self.name = name
         self.number = number
-        if args[0] == 'hole_transfer':
-            self.hole_from = args[1]
-            self.tray_from = args[2]
-            self.hole_to = args[3]
-            self.tray_to = args[4]
-            self.type = 'hole'
+        if args[0] == 'module_transfer':
+            self.module_from = args[1]
+            self.module_type_from = args[2]
+            self.module_to = args[3]
+            self.module_type_to = args[4]
+            self.type = 'module'
 
         elif args[0] == 'source_transfer':
             self.hole_to = args[1]
-            self.tray_to = args[2]
+            self.module_type_to = args[2]
             self.type = 'source'
 
         elif args[0] == 'sink_transfer':
-            self.hole_from = args[1]
-            self.tray_from = args[2]
+            self.module_from = args[1]
+            self.module_type_from = args[2]
             self.type = 'sink'
 
+
         # Return the instruction as a string that will be put in the output.txt file for the robotic arm
-        
     def toString(self):
-        if(self.type == 'hole'):
-            return "Move " + str(int(self.number))  + " "  + self.name + " from tray " + str(self.tray_from) + " to tray " + str(self.tray_to)
+        if(self.type == 'module'):
+            return "Move " + str(int(self.number))  + " "  + self.name + " from module_type " + str(self.module_type_from) + " to module_type " + str(self.module_type_to)
         elif(self.type == 'source'):
-            return "Plant " + str(int(self.number)) + " seed of "  + self.name + " in tray " + str(self.tray_to)
+            return "Plant " + str(int(self.number)) + " seed of "  + self.name + " in module_type " + str(self.module_type_to)
         else:
-            return "Harvest " + str(int(self.number)) + " plant " + self.name + " from tray " + str(self.tray_from)
+            return "Harvest " + str(int(self.number)) + " plant " + self.name + " from module_type " + str(self.module_type_from)
 
 
+'''
     def toString_compare(self):
-        if(self.type == 'hole'):
-            return "Move " + self.name + " from tray " + str(self.tray_from) + " to tray " + str(self.tray_to)
+        if(self.type == 'module'):
+            return "Move " + self.name + " from module_type " + str(self.module_type_from) + " to module_type " + str(self.module_type_to)
         elif(self.type == 'source'):
-            return "Plant seed of " + self.name + " in tray " + str(self.tray_to)
+            return "Plant seed of " + self.name + " in module_type " + str(self.module_type_to)
         else:
-            return "Harvest plant " + self.name + " from tray " + str(self.tray_from)
+            return "Harvest plant " + self.name + " from module_type " + str(self.module_type_from)
+'''

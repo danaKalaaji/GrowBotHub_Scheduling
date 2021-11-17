@@ -11,40 +11,47 @@ from classes import Instruction
 
 ###  OUTPUTS  ###
 
-# Writes the outputs in two different files :
-# output.txt which contains all the instructions that the robotic arm will have to perform
-# output2.txt which contains the states of all the growth modules for each day
+'''
+Writes the outputs in two different files :
+	-output.txt which contains all the instructions that the robotic arm will have to perform
+	-output2.txt which contains the states of all the growth modules for each day
+	-output_harvested.txt which contains
+		-day by day what plants we are harvesting
+		-for each type of plants the day it is being harvested
+'''
 def write_outputs():
 	total_plants = 0
 	original_stdout = sys.stdout
 	
+
+
+
+
 	# Writing the instructions output
 	f = open("output.txt", "w")
 	sys.stdout = f
 
 	instructions = [[] for i in range(inputs.HORIZON + 2)]
-
 	# Three types of instructions (See the Instruction() class in the classes.py file)
 	for e in gc.g.edges:
-		if e[0].type == 'module' and e[1].type == 'module' and e[0].where != e[1].where:
+		if e[0].type == 'modules' and e[1].type == 'modules' and e[0].where != e[1].where:
 			for p in plants.plants:
 				if (e[0], e[1], p) in opti.flow_vars and opti.flow_vars[e[0], e[1], p].varValue > 0:
 					instructions[e[1].when].append(Instruction(
-						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'module_transfer', e[0].tray, e[1].tray))
+						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'module_transfer', e[0].modules_type, e[1].modules_type))
 
-		if e[0].type == 'source' and e[1].type == 'module':
+		if e[0].type == 'source' and e[1].type == 'modules':
 			for p in plants.plants:
 				if (e[0], e[1], p) in opti.flow_vars and opti.flow_vars[e[0], e[1], p].varValue > 0:
 					instructions[e[1].when].append(Instruction(
-						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'source_transfer', e[1].tray))
+						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'source_transfer', e[1].modules_type))
 					total_plants += opti.flow_vars[e[0], e[1], p].varValue
 
-		if e[0].type == 'module' and e[1].type == 'sink':
+		if e[0].type == 'modules' and e[1].type == 'sink':
 			for p in plants.plants:
 				if (e[0], e[1], p) in opti.flow_vars and opti.flow_vars[e[0], e[1], p].varValue > 0:
 					instructions[e[0].when + 1].append(Instruction(
-						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'sink_transfer', e[0].tray))
-
+						p[0].name, opti.flow_vars[e[0], e[1], p].varValue, 'sink_transfer', e[0].modules_type))
 	for i in range(len(instructions)):
 		print("DAY " + str(i))
 		for s in instructions[i]:
@@ -54,8 +61,13 @@ def write_outputs():
 	f.close()
 
 
+
+
+
+
 	f = open("output_compare.txt", "w")
 	sys.stdout = f
+
 	for i in range(len(instructions)):
 		print("DAY " + str(i))
 		for s in instructions[i]:
@@ -66,9 +78,16 @@ def write_outputs():
 	f.close()
 
 
+
+
+
+
+
+
 #	Day by day what plants we are harvesting + For each type of plants the day it is being harvested
 	f = open("output_harvested.txt", "w")
 	sys.stdout = f
+
 	harvested = [[] for p in range(edges.n_plants)]
 	frame_plant =[[0]*len(instructions) for p in range(edges.n_plants)]
 
@@ -82,7 +101,7 @@ def write_outputs():
 						harvested[j].append((s, i))
 						frame_plant[j][i] = int(s.number)
 	print("_____________________________________________________________________________________")
-
+	
 	for i in range(len(harvested)):
 		if harvested[i]:
 			print(harvested[i][0][0].name + ":")
@@ -97,25 +116,27 @@ def write_outputs():
 	pd.set_option('display.max_columns', None)
 	print(df.transpose())
 
-
-
 	sys.stdout = original_stdout
 	f.close()
 
 	
 
+
+
+
+
+
 	# Writing the growth modules states output
 	f = open("output2.txt", "w")
+	sys.stdout = f
 
-	states = [[[] for i in range(inputs.HORIZON + 1)] for k in range(inputs.TRAYS)]
-
+	states = [[[] for i in range(inputs.HORIZON + 1)] for k in range(inputs.NB_TYPE_MODULE)]
 	for e in gc.g.edges:
-		if e[1].type == 'module':
+		if e[1].type == 'modules':
 			for p in plants.plants:
 				if (e[0].type != 'source' or e[1].when == 0) and (e[0], e[1], p) in opti.flow_vars and opti.flow_vars[e[0], e[1], p].varValue >0 :
-					states[e[1].tray][e[1].when].append("Plant : " + str(int(opti.flow_vars[e[0], e[1], p].varValue)) + " " + p[0].name)
+					states[e[1].modules_type][e[1].when].append("Plant : " + str(int(opti.flow_vars[e[0], e[1], p].varValue)) + " " + p[0].name)
 
-	sys.stdout = f
 	for i in range(len(states)):
 		print("GROWTH MODULE " + str(i))
 		for j in range(len(states[i])):

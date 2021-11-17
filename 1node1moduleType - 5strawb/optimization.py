@@ -6,18 +6,28 @@ import inputs
 import plants_array as plants
 import edges
 import sys
+
+
+
 ###  OPTIMIZATION  ###
 
 # Creates the Pulp model and ask to maximize it
 model = plp.LpProblem(name="Scheduling", sense=plp.LpMaximize)
-
 # The flow variables of the model
 flow_vars = None
 
 
+
+
+
 ## FLOW VARIABLES ##
 
-# Creates the flow variables using the graph edges computed before
+'''
+Creates the flow variables using the graph edges computed before.
+Each edge connecting a node of type A has a
+    -total capacity of 5*(number of modules of type A)
+    -capacity per commodity of 2*(number of modules of type A)
+'''
 def make_flow_vars():
     # Set those two variables as global
     global flow_vars
@@ -27,23 +37,27 @@ def make_flow_vars():
     for u, v, d in gc.g.edges(data=True):
         for key, val in d['bounds'].items():
             if(val > 0):
+                #creates the flow variable
                 flow_vars[u, v, key] = plp.LpVariable(name='{}_{}_{}'.format(
                     *(u, v, key)), lowBound= 0, cat='Integer')
-                if v.type == 'module':
+                if v.type == 'modules':
                     # Per-commodity capacity constraints
-                    model += flow_vars[u, v, key] <= 2 * inputs.TRAYS_PER_TYPE[int(v.where/2)]
+                    model += flow_vars[u, v, key] <= 2 * inputs.MODULES[int(v.modules_type)]
 
-        # Bundle constraints
-        if v.type == 'module':
+        # Bundle constraints: total capacity 
+        if v.type == 'modules':
             bundle = []
             bundle += [flow_vars[u, v, key]
                        for key in d['bounds'].keys() if (u, v, key) in flow_vars]
+            model += plp.lpSum(bundle) <= inputs.HOLES[int(v.modules_type)]
 
-            model += plp.lpSum(bundle) <= inputs.HOLES[int(v.where/2)]
 
 
-## SIZE CONSTRAINT ##
 
+##SIZE CONSTRAINT ##
+
+'''
+##OLD CONSTRAINT
 # Adds the size constraint to the model :
 # The sum of the sizes of two neighbor plants should not exceed MAX_SIZE (defined in inputs.py)
 def size_constraint():
@@ -51,56 +65,93 @@ def size_constraint():
     for max_size in inputs.MAX_SIZE.keys():
         for pair in (pair for pair in pair_of_neighbors(gc.g) if (pair[0].hole, pair[1].hole) in inputs.MAX_SIZE[max_size]):
             bundle = []
-            for e in (e for e in gc.g.in_edges(pair[0], data=True) if e[0].type == 'module'):
+            for e in (e for e in gc.g.in_edges(pair[0], data=True) if e[0].type == 'modules'):
                 for c in e[2]['size'].keys():
                     if (e[0], pair[0], c) in flow_vars:
                         bundle += [flow_vars[e[0], pair[0], c]
                                    * e[2]['size'].get(c)]
-            for e in (e for e in gc.g.in_edges(pair[1], data=True) if e[0].type == 'module'):
+            for e in (e for e in gc.g.in_edges(pair[1], data=True) if e[0].type == 'modules'):
                 for c in e[2]['size'].keys():
                     if (e[0], pair[1], c) in flow_vars:
                         bundle += [flow_vars[e[0], pair[1], c]
                                    * e[2]['size'].get(c)]
             model += plp.lpSum(bundle) <= max_size
+'''
+
+## NEW CONSTRAINT
+'''
+Adds the size constraint to the model.
+There cannot be more than 2*(number of modules of type 2) big plants (Lettuce, Cabbage, Fennel) in each module of type 2.
+'''
+def size_constraint():
+    global model
+    lettuce_fennel_module = []
+    lettuce_cabbage_module = []
+    fennel_cabbage_module = []
+
+    for n in (n for n in gc.g.nodes if n.type == 'module'):
+        if n.module_type == 2:
+            for e in (e for e in gc.g.in_edges(n)): #if e[0].type == 'hole'):
+                for c in plants.plants:
+                    if (e[0], e[1], c) in flow_vars:
+                        if c[0].name == "Lettuce":
+                            lettuce_fennel_module += [flow_vars[e[0], e[1], c]]
+                            lettuce_cabbage_module += [flow_vars[e[0], e[1], c]]
+                        elif c[0].name == "Cabbage":
+                            lettuce_cabbage_module += [flow_vars[e[0], e[1], c]]
+                            fennel_cabbage_module += [flow_vars[e[0], e[1], c]]
+                        elif c[0].name == "Fennel":
+                            lettuce_cabbage_module += [flow_vars[e[0], e[1], c]]
+                            fennel_cabbage_module += [flow_vars[e[0], e[1], c]]
+        model += plp.lpSum(lettuce_fennel_module) <= 2*inputs.MODULES[int(v.modules_type)]
+        model += plp.lpSum(lettuce_cabbage_module) <= 2*inputs.MODULES[int(v.modules_type)]
+        model += plp.lpSum(fennel_cabbage_module) <= 2*inputs.MODULES[int(v.modules_type)]
+        lettuce_fennel_module = []
+        lettuce_cabbage_module = []
+        fennel_cabbage_module = []
+
 
 
 ## MAXIMUM INFLOW CONSTRAINT ##
-
-# Adds the maximum inflow constraint to the model :
-# The inflow for all nodes in the graph (except sources ans sinks) should not exceed 1
-# (Maximum one plant per hole)
+'''
+Adds the maximum inflow constraint to the model :
+The inflow for all nodes in the graph (except sources ans sinks) should not exceed the number of holes per growth modules type
+(Maximum one plant per hole)
+For each node, for each one of its incoming edge and for each (plant, day); if (plant, day) goes through the edge, adds its flow to the array.
+'''
 def max_inflow_constraint():
     global model
     inflow_from_holes = [[] for _ in range(len(gc.g.nodes))]
-    for n in (n for n in gc.g.nodes if n.type == 'module'):
+    for n in (n for n in gc.g.nodes if n.type == 'modules'):
         for e in (e for e in gc.g.in_edges(n)): #if e[0].type == 'hole'):
             for c in plants.plants:
                 if (e[0], e[1], c) in flow_vars:
                     inflow_from_holes[list(gc.g.nodes).index(n)] += [flow_vars[e[0], e[1], c]]
-                    #print(e[0].tray, e[0].hole, e[0].when , "||",e[1].tray, e[1].hole, e[1].when, "||",flow_vars[e[0], e[1], c].varValue)
+                    #print(e[0].modules_type, e[0].hole, e[0].when , "||",e[1].modules_type, e[1].hole, e[1].when, "||",flow_vars[e[0], e[1], c].varValue)
 
-        model += plp.lpSum(inflow_from_holes[list(gc.g.nodes).index(n)]) <= inputs.HOLES[int(n.where/2)]
+        model += plp.lpSum(inflow_from_holes[list(gc.g.nodes).index(n)]) <= inputs.HOLES[int(n.modules_type)]
 
 
 ## FLOW CONSERVATION CONSTRAINT ##
-
-# Adds the flow conservation constraint to the model :
-# Inflow and outflow of a node (except sources and sinks) should be equal
+'''
+Adds the flow conservation constraint to the model :
+Inflow and outflow of a node (except sources and sinks) should be equal
+'''
 def flow_conservation_constraint():
     global model
-    for n in (n for n in gc.g.nodes if n.type == 'module'):
+    for n in (n for n in gc.g.nodes if n.type == 'modules'):
         for c in plants.plants:
             inflow, outflow = get_inflow_outflow(gc.g, flow_vars, n, c)
             model += inflow - outflow == 0
 
 
 ## BALANCE CONSTRAINT ##
-
-# Adds the balance constraint to the model :
-# The number of plants of a certain type produced should be larger or equal to the limit minus a loose up constraint alpha
-# limit : The number of plant produced divided by the number of types of plant
-# alpha : Set to 4 manually here (but can be changed). This constant allows the constraint to be less strict
-
+'''
+Adds the balance constraint to the model :
+The number of plants of a certain type produced should be larger or equal to the limit minus a loose up constraint alpha
+  -limit : The number of plant produced divided by the number of types of plant
+  -alpha : Set to 4 manually here (but can be changed). This constant allows the constraint to be less strict
+'''
 def balance_constraint():
     global model
     alpha = 4
@@ -118,22 +169,21 @@ def balance_constraint():
         model += plp.lpSum(sink) >= limit
 
 
-#def one_plant_every_xdays():
-
 
 ## OPTIMIZE ##
-
-# Asks the solver to maximize the number of plant produced in this model
-# Can choose to authorize or not to put a timeout to the optimization
+'''
+Asks the solver to maximize the number of plant produced in this model
+Can choose to authorize or not to put a timeout to the optimization
+'''
 def optimize():
     global model
     w = 7
-    model += plp.lpSum(get_sink_inflow()) - w* plp.lpSum(z()) #- v * plp.lpSum(y())
+    model += plp.lpSum(get_sink_inflow()) - w * plp.lpSum(z()) #- v * plp.lpSum(y())
 
     # Solves With a cut of of fracGap
     model.solve(plp.PULP_CBC_CMD(fracGap = 0.1))
 
-    # Solves without timeout
+    # Solves without timeout or a cut
     #model.solve()
 
     # Solves With a timeout of MAX_TIME minutes
@@ -141,32 +191,43 @@ def optimize():
 
 
 
+## SUB-FUNCTIONS ##
+
+
+'''
 # Sub-function that creates all the pairs of neighbor nodes in the graph
 def pair_of_neighbors(g):
     pairs = set()
-    for n1 in (n1 for n1 in gc.g.nodes if n1.type == 'module' and n1.where % 2 == 0):
+    for n1 in (n1 for n1 in gc.g.nodes if n1.type == 'modules' and n1.where % 2 == 0):
         for n2 in (n2 for n2 in gc.g.nodes if n1.neighbors(n2)):
             pairs.add((n1, n2))
     return pairs
+'''
 
 
-# Sub-function that calculates the inflow and outflow for each node in the graph (except sources and sinks)
+
+'''
+Calculates the inflow and outflow for each node in the graph (except sources and sinks)
+'''
 def get_inflow_outflow(g, flow_v, n, c):
     inflow = 0
     outflow = 0
     for e in g.in_edges(n):
         if (e[0], e[1], c) in flow_vars:
-            
             inflow += plp.lpSum([flow_v[e[0], e[1], c]])
     for e in g.out_edges(n):
         if (e[0], e[1], c) in flow_vars:
             outflow += plp.lpSum([flow_v[e[0], e[1], c]])
     return inflow, outflow
 
+
+'''
+Calculates the inflow of all sinks in the graph with a strawberry constraint.
+Each time we have one strawberry, it considers that we have 5 strawberries
+'''
 def get_sink_inflow_balance_constraint():
     sink_inflow_balance_constraint = []
     for n in [n for n in gc.g.nodes if n.sink]:
-
         for e in gc.g.in_edges(n):
             for c in plants.plants:
                 if (e[0], e[1], c) in flow_vars:
@@ -176,7 +237,9 @@ def get_sink_inflow_balance_constraint():
                         sink_inflow_balance_constraint += [flow_vars[e[0], e[1], c]]
     return sink_inflow_balance_constraint
     
-# Sub-function that calculates the inflow of all sinks in the graph
+'''
+Calculates the inflow of all sinks in the graph without the strawberry constraint
+'''
 def get_sink_inflow():
     sink_inflow = []
     for n in [n for n in gc.g.nodes if n.sink]:
@@ -186,7 +249,13 @@ def get_sink_inflow():
                     sink_inflow += [flow_vars[e[0], e[1], c]]
     return sink_inflow
 
-#constraint: we want a plants per dey --> puts a weight if we have a day with no plants
+'''
+Diversity constraint: one plant per day.
+For each day d, z[d] is
+    - 0 if we harvest a plant on day d
+    - 1 otherwise
+Puts a weight on day d if no plants were harvested that day
+'''
 def z():
     global model
     z = [plp.LpVariable(name='{}'.format(d), lowBound=0, upBound=1, cat='Integer') for d in range(inputs.HORIZON+1)]
@@ -207,7 +276,8 @@ def z():
     return z
 
 
-#constraint: at most x plants of type p every 3 days --> weight if we harvest plants of type p more than once every 3 days
+#constraint: at most x plants of type p every 3 days 
+#--> weight if we harvest plants of type p more than once every 3 days
 """
 def y():
     global model
