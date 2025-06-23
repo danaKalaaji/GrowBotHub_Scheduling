@@ -1,107 +1,66 @@
-## 🛰️ Project Overview – GrowBotHub Scheduling
-This repository contains the work done as part of a semester project within **GrowBotHub**, an EPFL student association designing autonomous vertical farms for space exploration, particularly for future missions on the Moon. Our system is part of **IGLUNA: A Habitat in Ice**, where we will deploy and test a working prototype during the 2021 Field Campaign.
+# GrowBotHub Scheduling Algorithm
 
-### 🎯 Focus of This Work: Scheduling
+A comprehensive scheduling system for automated vertical farming in space environments, developed as part of the IGLUNA habitat project at EPFL.
 
-Our team was responsible for developing and optimizing the **scheduling algorithm** that dictates the movement of plants across a vertical aeroponic farm to:
-- Maximize plant production over a given period.
-- Ensure plants receive the right nutrients at the right time.
-- Respect physical constraints like module capacity and plant size.
-- Adapt to delays via **real-time rescheduling**.
+## Project Overview
 
-We built on the work of the previous semester team, which used a **multi-commodity flow model** with the PuLP solver. We improved their algorithm, implemented new features requested by GrowBotHub, and handled dynamic updates during execution.
+GrowBotHub is developing a fully automated vertical farming system for space exploration, particularly lunar habitats. This repository contains the scheduling algorithms that optimize plant movements across different growth modules to maximize harvest yield while respecting various constraints.
 
-### 🤝 Part of a Larger System
+### Key Features
 
-Our scheduling system integrates with other subsystems developed in parallel by interdisciplinary teams:
-- **Structure** – Designing the physical layout and movement mechanisms.
-- **Aeroponics** – Managing water and nutrient delivery.
-- **Robotics** – Programming the robotic arm and vision system.
-- **Networking** – Facilitating communication between components and Earth control.
-- **Chemical Engineering** – Designing nutrient solutions and handling waste.
+- **Multi-commodity flow optimization** for plant scheduling
+- **Aeroponic system integration** with specialized nutrient modules
+- **Diversity constraints** ensuring varied daily harvests
+- **Plant size constraints** preventing overcrowding
+- **Robotic arm instruction generation** for automated operations
+- **Optimal module configuration** determination
 
-📄 **More details and full results are available in the report:** `GrowBotHub.pdf`
+## Repository Structure
 
+### `1node1moduleType - 5strawb/`
+**Optimized Version - Recommended for most use cases**
 
-## Project Structure
+- Each graph node represents a **module type** (seedling, vegetative growth, flowering, development)
+- Significantly reduced graph size: ~35x fewer edges compared to hole-based representation
+- Fast execution time: ~2 minutes for 180-day scheduling
+- Implements strawberry multiplication (5x) to account for multiple fruits per plant
+- **Trade-off**: Less granular control over individual plant positions within modules
 
-<details>
-<summary>Click to expand the project structure</summary>
-1node1moduleType - 5strawb/
+**Use when:**
+- You need fast execution times
+- Plant size constraints are not critical
+- You're determining optimal module configurations
 
-Projet_Semestre.pdf
-README.md
-Scheduling_1node1bac - Raccourci.lnk
-pycache/
-classes.py
-data.txt
-edges.py
-graph_construction_and_draw.py
-inputs.py
-main.py
-optimization.py
-outputs.py
-plant_datas.txt
-plants_array.py
-1nodemodule - 5strawb/
+### `1nodemodule - 5strawb/`
+**Detailed Version - For precise plant management**
 
-Projet_Semestre.pdf
-README.md
-pycache/
-classes.py
-data.txt
-edges.py
-graph_construction_and_draw.py
-inputs.py
-main.py
-optimization.py
-outputs.py
-plant_datas.txt
-plants_array.py
-scheduling/
-classes.py
-data.txt
-input.py
-main.py
-output.txt
-output2.txt
-smalldata.txt
-OptimalNbTrays/
+- Each graph node represents an **individual module**
+- Enables precise plant size constraint implementation
+- Longer execution time: ~5.5 hours for 180-day scheduling
+- Full control over plant placement and size management
+- Implements strawberry multiplication (5x)
 
-Projet_Semestre.pdf
-README.md
-pycache/
-classes.py
-data.txt
-edges.py
-graph_construction_and_draw.py
-inputs.py
-main.py
-optimization.py
-outputs.py
-plant_datas.txt
-plants_array.py
-total_plants_given_trays.py
+**Use when:**
+- Plant size constraints are critical (lettuce, cabbage, fennel)
+- You need precise control over plant placement
+- Execution time is not a primary concern
 
-</details>
+### `OptimalNbTrays/`
+Contains algorithms for determining the optimal number of modules of each type (seedling, vegetative growth, flowering, development) to maximize total harvest yield.
 
-## Key Features
+## Quick Start
 
-- **Automated Scheduling**: Modules for scheduling plant growth stages efficiently.
-- **Graph Construction and Visualization**: Tools for creating and visualizing growth graphs.
-- **Optimization**: Algorithms for optimizing resource allocation and plant placement.
+### Prerequisites
+- Python 3.x
+- PuLP optimization library
+- Input data files (module specifications, plant properties, growth times)
 
-## Installation
+### Basic Usage
 
-To run this project, you'll need Python installed on your system. Follow these steps to get started:
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/danaKalaaji/GrowBotHub_Scheduling.git
-Navigate into the desired module directory.
-Navigate into the desired module directory.
-
-Run the main script:
-python main.py
-Usage Examples
-You can find example usage patterns in the main.py of each module. Simply modify the input parameters to suit your needs.
+1. **Choose your implementation:**
+  ```bash
+  # For fast execution (recommended)
+  cd "1node1moduleType - 5strawb"
+  
+  # For detailed plant management
+  cd "1nodemodule - 5strawb"
