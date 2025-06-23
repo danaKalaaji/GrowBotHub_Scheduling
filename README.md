@@ -1,6 +1,27 @@
-# GrowBotHub Scheduling
+## 🛰️ Project Overview – GrowBotHub Scheduling
+This repository contains the work done as part of a semester project within **GrowBotHub**, an EPFL student association designing autonomous vertical farms for space exploration, particularly for future missions on the Moon. Our system is part of **IGLUNA: A Habitat in Ice**, where we will deploy and test a working prototype during the 2021 Field Campaign.
 
-Welcome to the GrowBotHub Scheduling System, a project aimed at optimizing scheduling processes for plant growth systems.
+### 🎯 Focus of This Work: Scheduling
+
+Our team was responsible for developing and optimizing the **scheduling algorithm** that dictates the movement of plants across a vertical aeroponic farm to:
+- Maximize plant production over a given period.
+- Ensure plants receive the right nutrients at the right time.
+- Respect physical constraints like module capacity and plant size.
+- Adapt to delays via **real-time rescheduling**.
+
+We built on the work of the previous semester team, which used a **multi-commodity flow model** with the PuLP solver. We improved their algorithm, implemented new features requested by GrowBotHub, and handled dynamic updates during execution.
+
+### 🤝 Part of a Larger System
+
+Our scheduling system integrates with other subsystems developed in parallel by interdisciplinary teams:
+- **Structure** – Designing the physical layout and movement mechanisms.
+- **Aeroponics** – Managing water and nutrient delivery.
+- **Robotics** – Programming the robotic arm and vision system.
+- **Networking** – Facilitating communication between components and Earth control.
+- **Chemical Engineering** – Designing nutrient solutions and handling waste.
+
+📄 **More details and full results are available in the report:** `GrowBotHub.pdf`
+
 
 ## Project Structure
 
