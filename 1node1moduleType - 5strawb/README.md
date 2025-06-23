@@ -125,15 +125,3 @@ The program generates several output files:
 - `output_harvested.txt`: Breakdown of harvested plants
 
 ---
-
-## Documentation
-
-Refer to `Projet_Semestre.pdf` for an in-depth explanation of the methodology, results, and visualizations.
-
----
-
-## 🤝 Contributing or Questions?
-
-Feel free to open an issue or pull request if you'd like to contribute, report a bug, or ask a question!
-
----
