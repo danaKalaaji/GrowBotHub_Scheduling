@@ -1,6 +1,6 @@
 # OptimalNbTrays
 
-**OptimalNbTrays** is a Python project that optimally allocates trays for plant growth under various constraints. It uses graph modeling and optimization techniques (via the [PuLP](https://coin-or.github.io/pulp/) linear programming package) to determine the most efficient configuration for growing plants.
+**OptimalNbTrays** optimally allocates trays for plant growth under various constraints. It uses graph modeling and optimization techniques (via the [PuLP](https://coin-or.github.io/pulp/) linear programming package) to determine the most efficient configuration for growing plants.
 
 ---
 
