@@ -1,72 +1,108 @@
-# Growbothub Scheduling
+# OptimalNbTrays
 
+**OptimalNbTrays** is a Python project that optimally allocates trays for plant growth under various constraints. It uses graph modeling and optimization techniques (via the [PuLP](https://coin-or.github.io/pulp/) linear programming package) to determine the most efficient configuration for growing plants.
 
+---
 
-This program optimize the number of plants produced by GrowBotHub in function of different parameters as input.
+## Directory Structure
 
-To run the program, run main.py with python3 :
+```
+OptimalNbTrays/
+├── classes.py                    # Core classes like Node and Plant
+├── edges.py                     # Relationships and constraints between graph nodes
+├── graph_construction_and_draw.py  # Graph construction and visualization
+├── inputs.py                    # Input parsing and validation (from data.txt)
+├── optimization.py              # Main optimization logic using PuLP
+├── outputs.py                   # Output formatting and result display
+├── plants_array.py              # Handles plant data structures
+├── data.txt                     # Input configuration file (see format below)
+└── main.py                      # Entry point for running the program
+```
 
-​	**python3 main.py**
+---
 
-For the program to run, you will need to install the Pulp solver, free open source software.
+##  Installation & Setup
 
-All the file must be in the same directory than main.py:
+### 1. Clone the Repository
+```bash
+git clone https://github.com/danaKalaaji/scheduling_algo_flowNetworks_GrowBotHub.git
+cd scheduling_algo_flowNetworks_GrowBotHub/OptimalNbTrays
+```
 
-- classes.py
-- edges.py
-- graph_construction_and_draw.py
-- inputs.py
-- optimization.py
-- outputs.py
-- plants_array.py
+### 2. Install Dependencies
+Ensure you have Python 3 installed. Then install the required package:
 
-The program must read the text file **data.txt** to properly work. The syntax of this file is very specific :
+```bash
+pip install pulp
+```
 
-each line should begin by a key word, the data (all indexes begin at 0).
+---
 
-- "TRAYS" then "|" with the number of desired trays (growth modules)
+##  Running the Program
 
-- "HOLES" then "|" with the desired number of holes per tray (growth modules)
+Execute the main script:
 
-- "HORIZON" then "|" with the number of days we have to produce a maximum of plants
+```bash
+python3 main.py
+```
 
-- "MAX_SIZE" then "|", this the max distances between pairs of holes to be respected, you should start by the max_size value then ":" with the index of holes such as "0,1", between the pairs use "," and between the differents values of max size ";".
+ **Note:** Ensure all the `.py` files and `data.txt` are in the same directory as `main.py`.
 
-   Example with two max sizes of 15 and 14 : **MAX_SIZE|15:0,1-3,4;14:0,2-1,2-3,2-4,2**
+---
 
--  "MAX_TIME" then "|" the number of minutes before the time out of optimization. It will only count the actual optimization, the construction of graph and variables might take some time too.
+##  `data.txt` File Format
 
-- "PLANT" then "|" to add one type of plant, you must indicate different values separated by "|". First the name, the total days of growth, the color for the graph (b,g,y,purple,orange,c), the sizes : one value for each day separated by ",", the indexes of the trays it should go through separated by "," then the pair of indexes of days it must stay in each trays, the pairs should be separated by ";" and the values in the pairs by ",".
+This file contains configuration data and must strictly follow the expected format. Any errors in this file will cause the program to crash.
 
-  Example with fictive value of plant of a total days of growth of 5 days :
+###  General Format
 
-  **MAX_SIZE|15:0,1-3,4;14:0,2-1,2-3,2-4,2**
+Each line follows the structure:  
+`KEYWORD|value1|value2|...`
 
-Any error in the data will crash the program.
+All indices are **0-based**.
 
+###  Keywords and Examples
 
+- **TRAYS**: Total number of trays to allocate  
+  `TRAYS|5`
 
-The program returns 2 outputs and draws graphs. First it returns the list of all instructions the robotic arm must do every day in **output.txt**. Then in **output2.txt**, the status of each trays each day : which plant are in it. It will draw the raw graph it has constructed for the optimization in **graph.png** and the optimized one, with the color of the plants, in **optimized.png**.
+- **HOLES**: Number of holes per tray  
+  `HOLES|10`
 
+- **HORIZON**: Planning time horizon (in days)  
+  `HORIZON|30`
 
+- **MAX_SIZE**: Maximum distances between hole pairs to be respected  
+  `MAX_SIZE|max_distance:hole_index_pairs;...`  
+  Example:  
+  `MAX_SIZE|15:0,1-3,4;14:0,2-1,2-3,2-4,2`
 
+- **MAX_TIME**: Max optimization time in minutes  
+  `MAX_TIME|5`
 
+- **PLANT**: Plant data and growth cycle constraints  
+  `PLANT|name|total_days|color|sizes|tray_indexes|days_in_trays`
 
+  Example:
+  ```
+  PLANT|Tomato|5|red|10,20,30,40,50|0,1,2|0,1;1,2;2,3
+  ```
 
+---
 
+## Error Handling
 
+- Make sure each line strictly follows the expected format.
+- A single formatting error in `data.txt` can result in a crash.
+- All keywords must be in uppercase and spelled exactly as shown.
 
+---
 
+## How It Works
 
+- The program reads `data.txt` to understand the planting schedule and constraints.
+- It builds a graph model with nodes representing plant states and edges representing transitions.
+- An optimization algorithm determines the optimal use of trays to grow the maximum number of plants over the given horizon.
 
-
-
-
-
-
-
-
-
-
-
+---
 
