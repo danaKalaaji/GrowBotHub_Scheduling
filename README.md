@@ -15,7 +15,7 @@ GrowBotHub is developing a fully automated vertical farming system for space exp
 - **Robotic arm instruction generation** for automated operations
 - **Optimal module configuration** determination
 
-## Repository Structure
+## Repository Structure (more details in the read.me files of each folder)
 
 ### `1node1moduleType - 5strawb/`
 **Optimized Version - Recommended for most use cases**
