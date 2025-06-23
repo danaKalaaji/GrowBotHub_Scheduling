@@ -16,7 +16,9 @@ OptimalNbTrays/
 ├── outputs.py                   # Output formatting and result display
 ├── plants_array.py              # Handles plant data structures
 ├── data.txt                     # Input configuration file (see format below)
-└── main.py                      # Entry point for running the program
+├── main.py                      # Entry point for running the program
+└── Projet_Semestre.pdf          # Report from previous contributors, describes the project state before current modifications
+
 ```
 
 ---
