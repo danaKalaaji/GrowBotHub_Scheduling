@@ -24,7 +24,8 @@
 ├── output2.txt                  # Additional output for comparisons
 ├── output_compare.txt           # Validation/comparison output
 ├── output_harvested.txt         # Records harvested plants and statistics
-└── Projet_Semestre.pdf          # Full project report (suitable for academic submissions)
+└── Projet_Semestre.pdf          # Report from previous contributors, describes the project state before current modifications
+
 ```
 
 ---
