@@ -1,72 +1,127 @@
-# Growbothub Scheduling
+# 1node1moduleType - 5strawb
 
+##  Overview
 
+**1node1moduleType - 5strawb** is a scheduling and optimization project focused on efficient cultivation using modular plant growth systems. It explores graph-based modeling and linear optimization to allocate resources (nodes and modules) over time to maximize plant yield within given constraints.
 
-This program optimize the number of plants produced by GrowBotHub in function of different parameters as input.
+---
 
-To run the program, run main.py with python3 :
+##  Directory Structure
 
-​	**python3 main.py**
+```
+1node1moduleType - 5strawb/
+├── main.py                      # Entry point: runs the scheduling and optimization process
+├── classes.py                   # Data structures and class definitions
+├── edges.py                     # Graph edge management and constraint handling
+├── graph_construction_and_draw.py  # Graph creation and visualization
+├── inputs.py                    # Input data reading and preprocessing
+├── optimization.py              # Core optimization logic using PuLP
+├── outputs.py                   # Output formatting and writing
+├── plants_array.py              # Manages internal plant data arrays
+├── data.txt                     # Primary input configuration file
+├── plant_datas.txt              # Detailed plant types and stage data
+├── output.txt                   # Main output of the scheduling result
+├── output2.txt                  # Additional output for comparisons
+├── output_compare.txt           # Validation/comparison output
+├── output_harvested.txt         # Records harvested plants and statistics
+└── Projet_Semestre.pdf          # Report from previous contributors, describes the project state before current modifications
+```
 
-For the program to run, you will need to install the Pulp solver, free open source software.
+---
 
-All the file must be in the same directory than main.py:
+## Installation & Setup
 
-- classes.py
-- edges.py
-- graph_construction_and_draw.py
-- inputs.py
-- optimization.py
-- outputs.py
-- plants_array.py
+### Prerequisites
 
-The program must read the text file **data.txt** to properly work. The syntax of this file is very specific :
+- Python 3.x  
+- [PuLP](https://coin-or.github.io/pulp/) (Python Linear Programming library)
 
-each line should begin by a key word, the data (all indexes begin at 0).
+Install PuLP with:
 
-- "TRAYS" then "|" with the number of desired trays (growth modules)
+```bash
+pip install pulp
+```
 
-- "HOLES" then "|" with the desired number of holes per tray (growth modules)
+---
 
-- "HORIZON" then "|" with the number of days we have to produce a maximum of plants
+### Clone the Repository
 
-- "MAX_SIZE" then "|", this the max distances between pairs of holes to be respected, you should start by the max_size value then ":" with the index of holes such as "0,1", between the pairs use "," and between the differents values of max size ";".
+```bash
+git clone https://github.com/danaKalaaji/scheduling_algo_flowNetworks_GrowBotHub.git
+cd scheduling_algo_flowNetworks_GrowBotHub/1node1moduleType - 5strawb
+```
 
-   Example with two max sizes of 15 and 14 : **MAX_SIZE|15:0,1-3,4;14:0,2-1,2-3,2-4,2**
+### Ensure Required Files Are Present
 
--  "MAX_TIME" then "|" the number of minutes before the time out of optimization. It will only count the actual optimization, the construction of graph and variables might take some time too.
+The following files must be in the **same directory** as `main.py`:
 
-- "PLANT" then "|" to add one type of plant, you must indicate different values separated by "|". First the name, the total days of growth, the color for the graph (b,g,y,purple,orange,c), the sizes : one value for each day separated by ",", the indexes of the trays it should go through separated by "," then the pair of indexes of days it must stay in each trays, the pairs should be separated by ";" and the values in the pairs by ",".
+- `data.txt`
+- `plant_datas.txt`
+- All relevant `.py` files listed above
 
-  Example with fictive value of plant of a total days of growth of 5 days :
+---
 
-  **MAX_SIZE|15:0,1-3,4;14:0,2-1,2-3,2-4,2**
+##  Running the Program
 
-Any error in the data will crash the program.
+Execute the program with:
 
+```bash
+python3 main.py
+```
 
+>  Make sure `data.txt` and `plant_datas.txt` are correctly formatted. Any deviation from the expected syntax will result in a crash.
 
-The program returns 2 outputs and draws graphs. First it returns the list of all instructions the robotic arm must do every day in **output.txt**. Then in **output2.txt**, the status of each trays each day : which plant are in it. It will draw the raw graph it has constructed for the optimization in **graph.png** and the optimized one, with the color of the plants, in **optimized.png**.
+---
 
+## `data.txt` Format
 
+This file defines the scheduling constraints and scenario parameters. Each line must follow the format:
 
+```
+KEYWORD|value1|value2|...
+```
 
+All indices are 0-based.
 
+### Recognized Keywords
 
+- **TRAYS**: Total number of trays  
+  `TRAYS|5`
 
+- **HOLES**: Number of holes per tray  
+  `HOLES|10`
 
+- **HORIZON**: Number of days to simulate  
+  `HORIZON|20`
 
+- **MAX_SIZE**: Distance constraints between hole pairs  
+  `MAX_SIZE|distance:pair_indices;...`  
+  Example:  
+  `MAX_SIZE|15:0,1-3,4;14:0,2-1,2-3,2-4,2`
 
+- **MAX_TIME**: Maximum runtime in minutes for optimization  
+  `MAX_TIME|120`
 
+- **PLANT**: Plant configuration  
+  ```
+  PLANT|name|total_days|color|sizes|tray_indexes|days_in_trays
+  ```
 
+  Example:
+  ```
+  PLANT|Strawberry|7|red|15,20,25|0,1|0,1;1,2
+  ```
 
+---
 
+## Outputs
 
+The program generates several output files:
 
+- `output.txt`: Main results
+- `output2.txt`: Alternative formatting or details
+- `output_compare.txt`: Comparison metrics between runs
+- `output_harvested.txt`: Breakdown of harvested plants
 
-
-
-
-
-
+---
 
