@@ -6,18 +6,6 @@ Welcome to the GrowBotHub Scheduling System, a project aimed at optimizing sched
 
 <details>
 <summary>Click to expand the project structure</summary>
-README (MDX Format)
-mdx
-
-Copy
-# GrowBotHub Scheduling
-
-Welcome to the GrowBotHub Scheduling System, a project aimed at optimizing scheduling processes for plant growth systems.
-
-## Project Structure
-
-<details>
-<summary>Click to expand the project structure</summary>
 1node1moduleType - 5strawb/
 
 Projet_Semestre.pdf
